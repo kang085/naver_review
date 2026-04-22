@@ -1,0 +1,54 @@
+name: Naver Map Review Crawler (3 Times Daily)
+
+on:
+  schedule:
+    # 한국 시간(KST)은 UTC+9 이므로, UTC 기준으로 작성합니다.
+    # 1. 오전 3시 KST -> 전날 오후 6시 UTC
+    - cron: '0 18 * * *'
+    # 2. 오전 10시 KST -> 오전 1시 UTC
+    - cron: '0 1 * * *'
+    # 3. 오후 6시 KST -> 오전 9시 UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch: # 수동 실행 버튼 추가
+
+permissions:
+  contents: write # 파일 쓰기 권한 허용
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 코드 가져오기
+      uses: actions/checkout@v4
+
+    - name: 🐍 파이썬 환경 설정
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: 📦 라이브러리 설치
+      run: |
+        # 네트워크 불안정을 대비하여 재시도 옵션과 타임아웃 추가
+        pip install --default-timeout=100 --retries 5 pandas selenium webdriver-manager
+
+    - name: 🚀 리뷰 크롤러 실행 (회당 10개 타겟 처리)
+      run: python naver_review_crawler_v6_actions.py
+
+    - name: 💾 강제 종료 대비 데이터 구조 (Commit & Push)
+      if: always() # 파이썬이 중간에 에러로 멈춰도 지금까지 수집한 데이터는 무조건 저장
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 변경된 모든 파일(csv, json)을 장바구니에 담기
+        git add .
+        
+        # 변경사항이 있을 때만 커밋 및 푸시 진행
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto-backup: 리뷰 수집 데이터 및 진행상태 업데이트"
+          git pull --rebase # 충돌 방지
+          git push
+        else
+          echo "저장할 변경사항이 없습니다."
+        fi
