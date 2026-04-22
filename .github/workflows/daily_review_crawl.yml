@@ -33,7 +33,7 @@ jobs:
         pip install --default-timeout=100 --retries 5 pandas selenium webdriver-manager
 
     - name: 🚀 리뷰 크롤러 실행 (회당 10개 타겟 처리)
-      run: python naver_review_crawler_v6_actions.py
+      run: python naver_review_crawler_v6.py
 
     - name: 💾 강제 종료 대비 데이터 구조 (Commit & Push)
       if: always() # 파이썬이 중간에 에러로 멈춰도 지금까지 수집한 데이터는 무조건 저장
