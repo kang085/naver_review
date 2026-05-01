@@ -26546,3 +26546,177 @@ Stacktrace:
 2026-05-01 10:45:04,226 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
 2026-05-01 10:45:04,336 - INFO - ✅ 정제 완료! (총 10532건 중 3178건 최종 저장)
 2026-05-01 10:45:05,120 - INFO - ☁️ GitHub 자동 푸시 완료: 최종 저장 성공!
+2026-05-01 19:21:06,809 - INFO - ============================================================
+2026-05-01 19:21:06,809 - INFO - 🚀 네이버 지도 방문자 리뷰 크롤러 (200개/20개 분할 아키텍처)
+2026-05-01 19:21:06,809 - INFO - ============================================================
+2026-05-01 19:21:06,818 - INFO - 📋 총 1200개 타겟 로드 완료 (현재 1192개 완료됨)
+2026-05-01 19:21:06,818 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-01 19:21:06,819 - INFO - ====== WebDriver manager ======
+2026-05-01 19:21:08,514 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:21:08,584 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:21:08,615 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-05-01 19:21:08,615 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:21:08,717 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-01 19:21:08,726 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-01 19:21:08,726 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-01 19:21:08,771 - INFO - Driver downloading response is 200
+2026-05-01 19:21:09,064 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:21:09,230 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-05-01 19:21:34,807 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56110c05779a <unknown>
+#1 0x56110ba53215 <unknown>
+#2 0x56110baa5f06 <unknown>
+#3 0x56110baa6141 <unknown>
+#4 0x56110baf1634 <unknown>
+#5 0x56110baee7d0 <unknown>
+#6 0x56110ba9955f <unknown>
+#7 0x56110ba9a321 <unknown>
+#8 0x56110c01b06b <unknown>
+#9 0x56110c01e01d <unknown>
+#10 0x56110c007718 <unknown>
+#11 0x56110c01ebb0 <unknown>
+#12 0x56110bfee150 <unknown>
+#13 0x56110c0445e8 <unknown>
+#14 0x56110c0447b8 <unknown>
+#15 0x56110c0561de <unknown>
+#16 0x7fcea669caa4 <unknown>
+#17 0x7fcea6729c6c <unknown>
+
+2026-05-01 19:21:34,807 - WARNING - ⚠️ '해안' 수집 실패. 재시도 중... (1/3)
+2026-05-01 19:21:39,887 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-01 19:21:39,888 - INFO - ====== WebDriver manager ======
+2026-05-01 19:21:39,963 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:21:40,039 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:21:40,072 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-01 19:22:01,054 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x560afa3f479a <unknown>
+#1 0x560af9df0215 <unknown>
+#2 0x560af9e42f06 <unknown>
+#3 0x560af9e43141 <unknown>
+#4 0x560af9e8e634 <unknown>
+#5 0x560af9e8b7d0 <unknown>
+#6 0x560af9e3655f <unknown>
+#7 0x560af9e37321 <unknown>
+#8 0x560afa3b806b <unknown>
+#9 0x560afa3bb01d <unknown>
+#10 0x560afa3a4718 <unknown>
+#11 0x560afa3bbbb0 <unknown>
+#12 0x560afa38b150 <unknown>
+#13 0x560afa3e15e8 <unknown>
+#14 0x560afa3e17b8 <unknown>
+#15 0x560afa3f31de <unknown>
+#16 0x7ff43f89caa4 <unknown>
+#17 0x7ff43f929c6c <unknown>
+
+2026-05-01 19:22:01,054 - WARNING - ⚠️ '해안' 수집 실패. 재시도 중... (2/3)
+2026-05-01 19:22:11,142 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-01 19:22:11,142 - INFO - ====== WebDriver manager ======
+2026-05-01 19:22:11,216 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:22:11,249 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:22:11,281 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-01 19:22:29,893 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x562b3895d79a <unknown>
+#1 0x562b38359215 <unknown>
+#2 0x562b383abf06 <unknown>
+#3 0x562b383ac141 <unknown>
+#4 0x562b383f7634 <unknown>
+#5 0x562b383f47d0 <unknown>
+#6 0x562b3839f55f <unknown>
+#7 0x562b383a0321 <unknown>
+#8 0x562b3892106b <unknown>
+#9 0x562b3892401d <unknown>
+#10 0x562b3890d718 <unknown>
+#11 0x562b38924bb0 <unknown>
+#12 0x562b388f4150 <unknown>
+#13 0x562b3894a5e8 <unknown>
+#14 0x562b3894a7b8 <unknown>
+#15 0x562b3895c1de <unknown>
+#16 0x7f4a7749caa4 <unknown>
+#17 0x7f4a77529c6c <unknown>
+
+2026-05-01 19:22:29,893 - WARNING - ⚠️ '해안' 수집 실패. 재시도 중... (3/3)
+2026-05-01 19:22:29,893 - ERROR - ❌ '해안' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-01 19:22:46,759 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x562b3895d79a <unknown>
+#1 0x562b38359215 <unknown>
+#2 0x562b383abf06 <unknown>
+#3 0x562b383ac141 <unknown>
+#4 0x562b383f7634 <unknown>
+#5 0x562b383f47d0 <unknown>
+#6 0x562b3839f55f <unknown>
+#7 0x562b383a0321 <unknown>
+#8 0x562b3892106b <unknown>
+#9 0x562b3892401d <unknown>
+#10 0x562b3890d718 <unknown>
+#11 0x562b38924bb0 <unknown>
+#12 0x562b388f4150 <unknown>
+#13 0x562b3894a5e8 <unknown>
+#14 0x562b3894a7b8 <unknown>
+#15 0x562b3895c1de <unknown>
+#16 0x7f4a7749caa4 <unknown>
+#17 0x7f4a77529c6c <unknown>
+
+2026-05-01 19:22:46,759 - WARNING - ⚠️ '성산리140' 수집 실패. 재시도 중... (1/3)
+2026-05-01 19:22:51,841 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-01 19:22:51,841 - INFO - ====== WebDriver manager ======
+2026-05-01 19:22:51,918 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:22:51,950 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:22:51,982 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-01 19:23:12,518 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55f2e9ad979a <unknown>
+#1 0x55f2e94d5215 <unknown>
+#2 0x55f2e9527f06 <unknown>
+#3 0x55f2e9528141 <unknown>
+#4 0x55f2e9573634 <unknown>
+#5 0x55f2e95707d0 <unknown>
+#6 0x55f2e951b55f <unknown>
+#7 0x55f2e951c321 <unknown>
+#8 0x55f2e9a9d06b <unknown>
+#9 0x55f2e9aa001d <unknown>
+#10 0x55f2e9a89718 <unknown>
+#11 0x55f2e9aa0bb0 <unknown>
+#12 0x55f2e9a70150 <unknown>
+#13 0x55f2e9ac65e8 <unknown>
+#14 0x55f2e9ac67b8 <unknown>
+#15 0x55f2e9ad81de <unknown>
+#16 0x7f6d7029caa4 <unknown>
+#17 0x7f6d70329c6c <unknown>
+
+2026-05-01 19:23:12,518 - WARNING - ⚠️ '성산리140' 수집 실패. 재시도 중... (2/3)
+2026-05-01 19:23:22,597 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-01 19:23:22,597 - INFO - ====== WebDriver manager ======
+2026-05-01 19:23:22,672 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:23:22,704 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-01 19:23:22,740 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-01 19:23:41,847 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5627544fd79a <unknown>
+#1 0x562753ef9215 <unknown>
+#2 0x562753f4bf06 <unknown>
+#3 0x562753f4c141 <unknown>
+#4 0x562753f97634 <unknown>
+#5 0x562753f947d0 <unknown>
+#6 0x562753f3f55f <unknown>
+#7 0x562753f40321 <unknown>
+#8 0x5627544c106b <unknown>
+#9 0x5627544c401d <unknown>
+#10 0x5627544ad718 <unknown>
+#11 0x5627544c4bb0 <unknown>
+#12 0x562754494150 <unknown>
+#13 0x5627544ea5e8 <unknown>
+#14 0x5627544ea7b8 <unknown>
+#15 0x5627544fc1de <unknown>
+#16 0x7eff77e9caa4 <unknown>
+#17 0x7eff77f29c6c <unknown>
+
+2026-05-01 19:23:41,847 - WARNING - ⚠️ '성산리140' 수집 실패. 재시도 중... (3/3)
+2026-05-01 19:23:41,847 - ERROR - ❌ '성산리140' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-01 19:23:41,921 - INFO - ============================================================
+2026-05-01 19:23:41,921 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-01 19:23:42,031 - INFO - ✅ 정제 완료! (총 10532건 중 3178건 최종 저장)
+2026-05-01 19:23:42,871 - INFO - ☁️ GitHub 자동 푸시 완료: 최종 저장 성공!
