@@ -57032,3 +57032,4018 @@ Stacktrace:
 2026-05-09 05:55:08,920 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
 2026-05-09 05:55:09,115 - INFO - ✅ 정제 완료! (총 21067건 중 5986건 최종 저장)
 2026-05-09 05:55:10,671 - INFO - ☁️ GitHub 자동 푸시 완료: 최종 저장 성공!
+2026-05-09 10:02:07,089 - INFO - ============================================================
+2026-05-09 10:02:07,089 - INFO - 🚀 네이버 지도 방문자 리뷰 크롤러 (200개/20개 분할 아키텍처)
+2026-05-09 10:02:07,089 - INFO - ============================================================
+2026-05-09 10:02:07,102 - INFO - 📋 총 2670개 타겟 로드 완료 (현재 2366개 완료됨)
+2026-05-09 10:02:07,102 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:02:07,104 - INFO - ====== WebDriver manager ======
+2026-05-09 10:02:08,993 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:02:09,028 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:02:09,058 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-05-09 10:02:09,058 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:02:09,170 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-09 10:02:09,177 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-09 10:02:09,177 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-09 10:02:09,221 - INFO - Driver downloading response is 200
+2026-05-09 10:02:09,269 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:02:09,403 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-05-09 10:02:33,452 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55a5d8b3a79a <unknown>
+#1 0x55a5d8536215 <unknown>
+#2 0x55a5d8588f06 <unknown>
+#3 0x55a5d8589141 <unknown>
+#4 0x55a5d85d4634 <unknown>
+#5 0x55a5d85d17d0 <unknown>
+#6 0x55a5d857c55f <unknown>
+#7 0x55a5d857d321 <unknown>
+#8 0x55a5d8afe06b <unknown>
+#9 0x55a5d8b0101d <unknown>
+#10 0x55a5d8aea718 <unknown>
+#11 0x55a5d8b01bb0 <unknown>
+#12 0x55a5d8ad1150 <unknown>
+#13 0x55a5d8b275e8 <unknown>
+#14 0x55a5d8b277b8 <unknown>
+#15 0x55a5d8b391de <unknown>
+#16 0x7f9e1049caa4 <unknown>
+#17 0x7f9e10529c6c <unknown>
+
+2026-05-09 10:02:33,452 - WARNING - ⚠️ '해안' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:02:38,530 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:02:38,531 - INFO - ====== WebDriver manager ======
+2026-05-09 10:02:38,597 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:02:38,625 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:02:38,654 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:02:57,178 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x562ad2e7b79a <unknown>
+#1 0x562ad2877215 <unknown>
+#2 0x562ad28c9f06 <unknown>
+#3 0x562ad28ca141 <unknown>
+#4 0x562ad2915634 <unknown>
+#5 0x562ad29127d0 <unknown>
+#6 0x562ad28bd55f <unknown>
+#7 0x562ad28be321 <unknown>
+#8 0x562ad2e3f06b <unknown>
+#9 0x562ad2e4201d <unknown>
+#10 0x562ad2e2b718 <unknown>
+#11 0x562ad2e42bb0 <unknown>
+#12 0x562ad2e12150 <unknown>
+#13 0x562ad2e685e8 <unknown>
+#14 0x562ad2e687b8 <unknown>
+#15 0x562ad2e7a1de <unknown>
+#16 0x7f9c7509caa4 <unknown>
+#17 0x7f9c75129c6c <unknown>
+
+2026-05-09 10:02:57,178 - WARNING - ⚠️ '해안' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:03:07,261 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:03:07,261 - INFO - ====== WebDriver manager ======
+2026-05-09 10:03:07,327 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:03:07,356 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:03:07,384 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:03:26,390 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5653c4b1179a <unknown>
+#1 0x5653c450d215 <unknown>
+#2 0x5653c455ff06 <unknown>
+#3 0x5653c4560141 <unknown>
+#4 0x5653c45ab634 <unknown>
+#5 0x5653c45a87d0 <unknown>
+#6 0x5653c455355f <unknown>
+#7 0x5653c4554321 <unknown>
+#8 0x5653c4ad506b <unknown>
+#9 0x5653c4ad801d <unknown>
+#10 0x5653c4ac1718 <unknown>
+#11 0x5653c4ad8bb0 <unknown>
+#12 0x5653c4aa8150 <unknown>
+#13 0x5653c4afe5e8 <unknown>
+#14 0x5653c4afe7b8 <unknown>
+#15 0x5653c4b101de <unknown>
+#16 0x7f5706a9caa4 <unknown>
+#17 0x7f5706b29c6c <unknown>
+
+2026-05-09 10:03:26,390 - WARNING - ⚠️ '해안' 수집 실패. 재시도 중... (3/3)
+2026-05-09 10:03:26,390 - ERROR - ❌ '해안' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-09 10:03:42,915 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5653c4b1179a <unknown>
+#1 0x5653c450d215 <unknown>
+#2 0x5653c455ff06 <unknown>
+#3 0x5653c4560141 <unknown>
+#4 0x5653c45ab634 <unknown>
+#5 0x5653c45a87d0 <unknown>
+#6 0x5653c455355f <unknown>
+#7 0x5653c4554321 <unknown>
+#8 0x5653c4ad506b <unknown>
+#9 0x5653c4ad801d <unknown>
+#10 0x5653c4ac1718 <unknown>
+#11 0x5653c4ad8bb0 <unknown>
+#12 0x5653c4aa8150 <unknown>
+#13 0x5653c4afe5e8 <unknown>
+#14 0x5653c4afe7b8 <unknown>
+#15 0x5653c4b101de <unknown>
+#16 0x7f5706a9caa4 <unknown>
+#17 0x7f5706b29c6c <unknown>
+
+2026-05-09 10:03:42,916 - WARNING - ⚠️ '성산리140' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:03:47,997 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:03:47,998 - INFO - ====== WebDriver manager ======
+2026-05-09 10:03:48,063 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:03:48,093 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:03:48,121 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:04:07,378 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56434ffee79a <unknown>
+#1 0x56434f9ea215 <unknown>
+#2 0x56434fa3cf06 <unknown>
+#3 0x56434fa3d141 <unknown>
+#4 0x56434fa88634 <unknown>
+#5 0x56434fa857d0 <unknown>
+#6 0x56434fa3055f <unknown>
+#7 0x56434fa31321 <unknown>
+#8 0x56434ffb206b <unknown>
+#9 0x56434ffb501d <unknown>
+#10 0x56434ff9e718 <unknown>
+#11 0x56434ffb5bb0 <unknown>
+#12 0x56434ff85150 <unknown>
+#13 0x56434ffdb5e8 <unknown>
+#14 0x56434ffdb7b8 <unknown>
+#15 0x56434ffed1de <unknown>
+#16 0x7f64bda9caa4 <unknown>
+#17 0x7f64bdb29c6c <unknown>
+
+2026-05-09 10:04:07,378 - WARNING - ⚠️ '성산리140' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:04:17,463 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:04:17,463 - INFO - ====== WebDriver manager ======
+2026-05-09 10:04:17,531 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:04:17,558 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:04:17,587 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:04:35,641 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x560d0c0e079a <unknown>
+#1 0x560d0badc215 <unknown>
+#2 0x560d0bb2ef06 <unknown>
+#3 0x560d0bb2f141 <unknown>
+#4 0x560d0bb7a634 <unknown>
+#5 0x560d0bb777d0 <unknown>
+#6 0x560d0bb2255f <unknown>
+#7 0x560d0bb23321 <unknown>
+#8 0x560d0c0a406b <unknown>
+#9 0x560d0c0a701d <unknown>
+#10 0x560d0c090718 <unknown>
+#11 0x560d0c0a7bb0 <unknown>
+#12 0x560d0c077150 <unknown>
+#13 0x560d0c0cd5e8 <unknown>
+#14 0x560d0c0cd7b8 <unknown>
+#15 0x560d0c0df1de <unknown>
+#16 0x7f6c9ae9caa4 <unknown>
+#17 0x7f6c9af29c6c <unknown>
+
+2026-05-09 10:04:35,641 - WARNING - ⚠️ '성산리140' 수집 실패. 재시도 중... (3/3)
+2026-05-09 10:04:35,641 - ERROR - ❌ '성산리140' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-09 10:04:52,605 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x560d0c0e079a <unknown>
+#1 0x560d0badc215 <unknown>
+#2 0x560d0bb2ef06 <unknown>
+#3 0x560d0bb2f141 <unknown>
+#4 0x560d0bb7a634 <unknown>
+#5 0x560d0bb777d0 <unknown>
+#6 0x560d0bb2255f <unknown>
+#7 0x560d0bb23321 <unknown>
+#8 0x560d0c0a406b <unknown>
+#9 0x560d0c0a701d <unknown>
+#10 0x560d0c090718 <unknown>
+#11 0x560d0c0a7bb0 <unknown>
+#12 0x560d0c077150 <unknown>
+#13 0x560d0c0cd5e8 <unknown>
+#14 0x560d0c0cd7b8 <unknown>
+#15 0x560d0c0df1de <unknown>
+#16 0x7f6c9ae9caa4 <unknown>
+#17 0x7f6c9af29c6c <unknown>
+
+2026-05-09 10:04:52,605 - WARNING - ⚠️ '초리' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:04:57,687 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:04:57,687 - INFO - ====== WebDriver manager ======
+2026-05-09 10:04:57,752 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:04:57,781 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:04:57,811 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:05:15,342 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x555b2c48e79a <unknown>
+#1 0x555b2be8a215 <unknown>
+#2 0x555b2bedcf06 <unknown>
+#3 0x555b2bedd141 <unknown>
+#4 0x555b2bf28634 <unknown>
+#5 0x555b2bf257d0 <unknown>
+#6 0x555b2bed055f <unknown>
+#7 0x555b2bed1321 <unknown>
+#8 0x555b2c45206b <unknown>
+#9 0x555b2c45501d <unknown>
+#10 0x555b2c43e718 <unknown>
+#11 0x555b2c455bb0 <unknown>
+#12 0x555b2c425150 <unknown>
+#13 0x555b2c47b5e8 <unknown>
+#14 0x555b2c47b7b8 <unknown>
+#15 0x555b2c48d1de <unknown>
+#16 0x7f88f849caa4 <unknown>
+#17 0x7f88f8529c6c <unknown>
+
+2026-05-09 10:05:15,342 - WARNING - ⚠️ '초리' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:05:25,425 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:05:25,425 - INFO - ====== WebDriver manager ======
+2026-05-09 10:05:25,491 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:05:25,518 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:05:25,544 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:05:44,048 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5565369ca79a <unknown>
+#1 0x5565363c6215 <unknown>
+#2 0x556536418f06 <unknown>
+#3 0x556536419141 <unknown>
+#4 0x556536464634 <unknown>
+#5 0x5565364617d0 <unknown>
+#6 0x55653640c55f <unknown>
+#7 0x55653640d321 <unknown>
+#8 0x55653698e06b <unknown>
+#9 0x55653699101d <unknown>
+#10 0x55653697a718 <unknown>
+#11 0x556536991bb0 <unknown>
+#12 0x556536961150 <unknown>
+#13 0x5565369b75e8 <unknown>
+#14 0x5565369b77b8 <unknown>
+#15 0x5565369c91de <unknown>
+#16 0x7f046fe9caa4 <unknown>
+#17 0x7f046ff29c6c <unknown>
+
+2026-05-09 10:05:44,048 - WARNING - ⚠️ '초리' 수집 실패. 재시도 중... (3/3)
+2026-05-09 10:05:44,048 - ERROR - ❌ '초리' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-09 10:06:01,833 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5565369ca79a <unknown>
+#1 0x5565363c6215 <unknown>
+#2 0x556536418f06 <unknown>
+#3 0x556536419141 <unknown>
+#4 0x556536464634 <unknown>
+#5 0x5565364617d0 <unknown>
+#6 0x55653640c55f <unknown>
+#7 0x55653640d321 <unknown>
+#8 0x55653698e06b <unknown>
+#9 0x55653699101d <unknown>
+#10 0x55653697a718 <unknown>
+#11 0x556536991bb0 <unknown>
+#12 0x556536961150 <unknown>
+#13 0x5565369b75e8 <unknown>
+#14 0x5565369b77b8 <unknown>
+#15 0x5565369c91de <unknown>
+#16 0x7f046fe9caa4 <unknown>
+#17 0x7f046ff29c6c <unknown>
+
+2026-05-09 10:06:01,833 - WARNING - ⚠️ '서귀포횟집회맛집나원회포차단체예약회포장소암로30' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:06:06,913 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:06:06,914 - INFO - ====== WebDriver manager ======
+2026-05-09 10:06:06,978 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:06:07,006 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:06:07,031 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:06:16,205 - INFO - 🪧 '서귀포횟집회맛집나원회포차단체예약회포장소암로30' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:06:20,413 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:06:28,332 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:06:36,034 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:06:43,282 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:06:50,025 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:06:58,202 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:07:05,652 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:07:08,436 - WARNING - ⚠️ Watchdog timeout! 61.2초 동안 활동 없음. 강제 재시도 유도.
+2026-05-09 10:07:08,436 - ERROR -   ❌ 크롤링 중 예외 발생: Message: Watchdog Timeout Triggered
+
+2026-05-09 10:07:08,436 - WARNING - ⚠️ '서귀포횟집회맛집나원회포차단체예약회포장소암로30' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:07:18,537 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:07:18,537 - INFO - ====== WebDriver manager ======
+2026-05-09 10:07:18,604 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:07:18,633 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:07:18,661 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:07:29,050 - INFO - 🪧 '서귀포횟집회맛집나원회포차단체예약회포장소암로30' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:07:33,443 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:07:40,990 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:07:48,638 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:07:56,587 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:08:03,778 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:08:11,090 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:08:18,400 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:08:21,438 - WARNING - ⚠️ Watchdog timeout! 62.5초 동안 활동 없음. 강제 재시도 유도.
+2026-05-09 10:08:21,438 - ERROR -   ❌ 크롤링 중 예외 발생: Message: Watchdog Timeout Triggered
+
+2026-05-09 10:08:21,438 - WARNING - ⚠️ '서귀포횟집회맛집나원회포차단체예약회포장소암로30' 수집 실패. 재시도 중... (3/3)
+2026-05-09 10:08:21,438 - ERROR - ❌ '서귀포횟집회맛집나원회포차단체예약회포장소암로30' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-09 10:08:31,388 - INFO - 🪧 '중문보말칼국수' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:08:36,052 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:08:44,291 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:08:51,668 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:09:00,596 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:09:08,674 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:09:15,831 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:09:23,235 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:09:25,852 - WARNING - ⚠️ Watchdog timeout! 64.4초 동안 활동 없음. 강제 재시도 유도.
+2026-05-09 10:09:25,852 - ERROR -   ❌ 크롤링 중 예외 발생: Message: Watchdog Timeout Triggered
+
+2026-05-09 10:09:25,852 - WARNING - ⚠️ '중문보말칼국수' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:09:30,961 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:09:30,962 - INFO - ====== WebDriver manager ======
+2026-05-09 10:09:31,027 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:09:31,054 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:09:31,082 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:09:40,358 - INFO - 🪧 '중문보말칼국수' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:09:45,617 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:09:52,706 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:09:59,872 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:10:08,738 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:10:16,682 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:10:23,937 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:10:31,273 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:10:34,086 - WARNING - ⚠️ Watchdog timeout! 62.8초 동안 활동 없음. 강제 재시도 유도.
+2026-05-09 10:10:34,086 - ERROR -   ❌ 크롤링 중 예외 발생: Message: Watchdog Timeout Triggered
+
+2026-05-09 10:10:34,086 - WARNING - ⚠️ '중문보말칼국수' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:10:44,189 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:10:44,189 - INFO - ====== WebDriver manager ======
+2026-05-09 10:10:44,255 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:10:44,282 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:10:44,309 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:10:54,452 - INFO - 🪧 '중문보말칼국수' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:11:00,101 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:11:07,537 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:11:15,460 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:11:23,941 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:11:31,795 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:11:38,770 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:11:45,938 - INFO -   ⏭️ [주소 불일치] 다음 항목을 확인합니다: []
+2026-05-09 10:11:49,241 - WARNING - ⚠️ Watchdog timeout! 64.7초 동안 활동 없음. 강제 재시도 유도.
+2026-05-09 10:11:49,242 - ERROR -   ❌ 크롤링 중 예외 발생: Message: Watchdog Timeout Triggered
+
+2026-05-09 10:11:49,242 - WARNING - ⚠️ '중문보말칼국수' 수집 실패. 재시도 중... (3/3)
+2026-05-09 10:11:49,242 - ERROR - ❌ '중문보말칼국수' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-09 10:12:07,922 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55da6e45179a <unknown>
+#1 0x55da6de4d215 <unknown>
+#2 0x55da6de9ff06 <unknown>
+#3 0x55da6dea0141 <unknown>
+#4 0x55da6deeb634 <unknown>
+#5 0x55da6dee87d0 <unknown>
+#6 0x55da6de9355f <unknown>
+#7 0x55da6de94321 <unknown>
+#8 0x55da6e41506b <unknown>
+#9 0x55da6e41801d <unknown>
+#10 0x55da6e401718 <unknown>
+#11 0x55da6e418bb0 <unknown>
+#12 0x55da6e3e8150 <unknown>
+#13 0x55da6e43e5e8 <unknown>
+#14 0x55da6e43e7b8 <unknown>
+#15 0x55da6e4501de <unknown>
+#16 0x7f601a29caa4 <unknown>
+#17 0x7f601a329c6c <unknown>
+
+2026-05-09 10:12:07,923 - WARNING - ⚠️ '동복로57' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:12:13,011 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:12:13,012 - INFO - ====== WebDriver manager ======
+2026-05-09 10:12:13,077 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:12:13,106 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:12:13,132 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:12:30,760 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x563a580e579a <unknown>
+#1 0x563a57ae1215 <unknown>
+#2 0x563a57b33f06 <unknown>
+#3 0x563a57b34141 <unknown>
+#4 0x563a57b7f634 <unknown>
+#5 0x563a57b7c7d0 <unknown>
+#6 0x563a57b2755f <unknown>
+#7 0x563a57b28321 <unknown>
+#8 0x563a580a906b <unknown>
+#9 0x563a580ac01d <unknown>
+#10 0x563a58095718 <unknown>
+#11 0x563a580acbb0 <unknown>
+#12 0x563a5807c150 <unknown>
+#13 0x563a580d25e8 <unknown>
+#14 0x563a580d27b8 <unknown>
+#15 0x563a580e41de <unknown>
+#16 0x7fe6a389caa4 <unknown>
+#17 0x7fe6a3929c6c <unknown>
+
+2026-05-09 10:12:30,760 - WARNING - ⚠️ '동복로57' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:12:40,836 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:12:40,836 - INFO - ====== WebDriver manager ======
+2026-05-09 10:12:40,901 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:12:40,929 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:12:40,956 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:12:59,498 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x555ad900979a <unknown>
+#1 0x555ad8a05215 <unknown>
+#2 0x555ad8a57f06 <unknown>
+#3 0x555ad8a58141 <unknown>
+#4 0x555ad8aa3634 <unknown>
+#5 0x555ad8aa07d0 <unknown>
+#6 0x555ad8a4b55f <unknown>
+#7 0x555ad8a4c321 <unknown>
+#8 0x555ad8fcd06b <unknown>
+#9 0x555ad8fd001d <unknown>
+#10 0x555ad8fb9718 <unknown>
+#11 0x555ad8fd0bb0 <unknown>
+#12 0x555ad8fa0150 <unknown>
+#13 0x555ad8ff65e8 <unknown>
+#14 0x555ad8ff67b8 <unknown>
+#15 0x555ad90081de <unknown>
+#16 0x7fbbd2a9caa4 <unknown>
+#17 0x7fbbd2b29c6c <unknown>
+
+2026-05-09 10:12:59,498 - WARNING - ⚠️ '동복로57' 수집 실패. 재시도 중... (3/3)
+2026-05-09 10:12:59,498 - ERROR - ❌ '동복로57' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-09 10:13:17,108 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x555ad900979a <unknown>
+#1 0x555ad8a05215 <unknown>
+#2 0x555ad8a57f06 <unknown>
+#3 0x555ad8a58141 <unknown>
+#4 0x555ad8aa3634 <unknown>
+#5 0x555ad8aa07d0 <unknown>
+#6 0x555ad8a4b55f <unknown>
+#7 0x555ad8a4c321 <unknown>
+#8 0x555ad8fcd06b <unknown>
+#9 0x555ad8fd001d <unknown>
+#10 0x555ad8fb9718 <unknown>
+#11 0x555ad8fd0bb0 <unknown>
+#12 0x555ad8fa0150 <unknown>
+#13 0x555ad8ff65e8 <unknown>
+#14 0x555ad8ff67b8 <unknown>
+#15 0x555ad90081de <unknown>
+#16 0x7fbbd2a9caa4 <unknown>
+#17 0x7fbbd2b29c6c <unknown>
+
+2026-05-09 10:13:17,108 - WARNING - ⚠️ '종달리746' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:13:22,190 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:13:22,190 - INFO - ====== WebDriver manager ======
+2026-05-09 10:13:22,256 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:13:22,283 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:13:22,309 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:13:40,862 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5569032eb79a <unknown>
+#1 0x556902ce7215 <unknown>
+#2 0x556902d39f06 <unknown>
+#3 0x556902d3a141 <unknown>
+#4 0x556902d85634 <unknown>
+#5 0x556902d827d0 <unknown>
+#6 0x556902d2d55f <unknown>
+#7 0x556902d2e321 <unknown>
+#8 0x5569032af06b <unknown>
+#9 0x5569032b201d <unknown>
+#10 0x55690329b718 <unknown>
+#11 0x5569032b2bb0 <unknown>
+#12 0x556903282150 <unknown>
+#13 0x5569032d85e8 <unknown>
+#14 0x5569032d87b8 <unknown>
+#15 0x5569032ea1de <unknown>
+#16 0x7fd8a8c9caa4 <unknown>
+#17 0x7fd8a8d29c6c <unknown>
+
+2026-05-09 10:13:40,862 - WARNING - ⚠️ '종달리746' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:13:50,945 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:13:50,945 - INFO - ====== WebDriver manager ======
+2026-05-09 10:13:51,010 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:13:51,039 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:13:51,068 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:14:09,366 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5588d205c79a <unknown>
+#1 0x5588d1a58215 <unknown>
+#2 0x5588d1aaaf06 <unknown>
+#3 0x5588d1aab141 <unknown>
+#4 0x5588d1af6634 <unknown>
+#5 0x5588d1af37d0 <unknown>
+#6 0x5588d1a9e55f <unknown>
+#7 0x5588d1a9f321 <unknown>
+#8 0x5588d202006b <unknown>
+#9 0x5588d202301d <unknown>
+#10 0x5588d200c718 <unknown>
+#11 0x5588d2023bb0 <unknown>
+#12 0x5588d1ff3150 <unknown>
+#13 0x5588d20495e8 <unknown>
+#14 0x5588d20497b8 <unknown>
+#15 0x5588d205b1de <unknown>
+#16 0x7fb4b209caa4 <unknown>
+#17 0x7fb4b2129c6c <unknown>
+
+2026-05-09 10:14:09,366 - WARNING - ⚠️ '종달리746' 수집 실패. 재시도 중... (3/3)
+2026-05-09 10:14:09,366 - ERROR - ❌ '종달리746' 최대 재시도 횟수 초과. 다음으로 넘어갑니다.
+2026-05-09 10:14:17,438 - INFO - 🪧 '월정해상' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:14:22,204 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 월정3길 51 1동)
+2026-05-09 10:14:31,502 - INFO -     - [수집 진행] Best33 | 5.7.목
+2026-05-09 10:14:31,580 - INFO -     - [수집 진행] jki**** | 5.7.목
+2026-05-09 10:14:32,175 - INFO -     - [수집 진행] 방울이리왓 | 4.27.월
+2026-05-09 10:14:32,257 - INFO -     - [수집 진행] 바니바니봉봉 | 4.25.토
+2026-05-09 10:14:32,340 - INFO -     - [수집 진행] gjc**** | 4.23.목
+2026-05-09 10:14:32,924 - INFO -     - [수집 진행] seo**** | 4.19.일
+2026-05-09 10:14:33,002 - INFO -     - [수집 진행] 안진우24 | 4.19.일
+2026-05-09 10:14:33,085 - INFO -     - [수집 진행] 유지나 | 3.13.금
+2026-05-09 10:14:33,164 - INFO -     - [수집 진행] 피기류 | 3.9.월
+2026-05-09 10:14:33,250 - INFO -     - [수집 진행] 주띵땅 | 3.7.토
+2026-05-09 10:14:33,254 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:14:50,039 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5588d205c79a <unknown>
+#1 0x5588d1a58215 <unknown>
+#2 0x5588d1aaaf06 <unknown>
+#3 0x5588d1aab141 <unknown>
+#4 0x5588d1af6634 <unknown>
+#5 0x5588d1af37d0 <unknown>
+#6 0x5588d1a9e55f <unknown>
+#7 0x5588d1a9f321 <unknown>
+#8 0x5588d202006b <unknown>
+#9 0x5588d202301d <unknown>
+#10 0x5588d200c718 <unknown>
+#11 0x5588d2023bb0 <unknown>
+#12 0x5588d1ff3150 <unknown>
+#13 0x5588d20495e8 <unknown>
+#14 0x5588d20497b8 <unknown>
+#15 0x5588d205b1de <unknown>
+#16 0x7fb4b209caa4 <unknown>
+#17 0x7fb4b2129c6c <unknown>
+
+2026-05-09 10:14:50,039 - WARNING - ⚠️ '한울타리한우 정육식당 송당' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:14:55,128 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:14:55,128 - INFO - ====== WebDriver manager ======
+2026-05-09 10:14:55,195 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:14:55,224 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:14:55,250 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:15:04,628 - INFO - 🪧 '한울타리한우 정육식당 송당' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:15:08,801 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 송당서길 5 제주시 구좌읍 송당리 1605-1)
+2026-05-09 10:15:18,132 - INFO -     - [수집 진행] 맥모닝매니아 | 4.25.토
+2026-05-09 10:15:18,216 - INFO -     - [수집 진행] wtwt88 | 2.14.토
+2026-05-09 10:15:18,289 - INFO -     - [수집 진행] 해피맘3333 | 25.12.21.일
+2026-05-09 10:15:18,362 - INFO -     - [수집 진행] grace55 | 25.10.24.금
+2026-05-09 10:15:18,444 - INFO -     - [수집 진행] 탐라방랑 | 25.9.12.금
+2026-05-09 10:15:18,532 - INFO -     - [수집 진행] Narively | 25.8.3.일
+2026-05-09 10:15:19,131 - INFO -     - [수집 진행] 꽃돼지9871 | 25.5.9.금
+2026-05-09 10:15:19,719 - INFO -     - [수집 진행] 기쁨별 | 25.5.2.금
+2026-05-09 10:15:20,303 - INFO -     - [수집 진행] 뮤즈1115 | 24.12.13.금
+2026-05-09 10:15:20,394 - INFO -     - [수집 진행] 티파니니 | 24.10.13.일
+2026-05-09 10:15:20,395 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:15:28,292 - INFO - 🪧 '달책빵' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:15:32,405 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 대수길 10-12)
+2026-05-09 10:15:42,200 - INFO -     - [수집 진행] 뮤리니 | 4.4.토
+2026-05-09 10:15:42,281 - INFO -     - [수집 진행] 이토록여름 | 3.23.월
+2026-05-09 10:15:42,861 - INFO -     - [수집 진행] juwonlala | 3.3.화
+2026-05-09 10:15:43,448 - INFO -     - [수집 진행] juwonlala | 2.18.수
+2026-05-09 10:15:43,532 - INFO -     - [수집 진행] 곰지녁 | 2.10.화
+2026-05-09 10:15:44,115 - INFO -     - [수집 진행] hahahoho53 | 2.7.토
+2026-05-09 10:15:44,194 - INFO -     - [수집 진행] 나비8664 | 2.2.월
+2026-05-09 10:15:44,274 - INFO -     - [수집 진행] ugi**** | 1.31.토
+2026-05-09 10:15:44,858 - INFO -     - [수집 진행] 이쁘니고우니 | 1.28.수
+2026-05-09 10:15:45,441 - INFO -     - [수집 진행] 루나이니 | 25.12.27.토
+2026-05-09 10:15:45,442 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:15:54,123 - INFO - 🪧 '보통' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:16:00,361 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 덕평로 309 3동1층)
+2026-05-09 10:16:09,619 - INFO -     - [수집 진행] vpvk84 | 5.9.토
+2026-05-09 10:16:10,212 - INFO -     - [수집 진행] dadacoco | 5.2.토
+2026-05-09 10:16:10,292 - INFO -     - [수집 진행] 러블리현짱 | 2.23.월
+2026-05-09 10:16:10,870 - INFO -     - [수집 진행] dai**** | 2.18.수
+2026-05-09 10:16:11,464 - INFO -     - [수집 진행] smi**** | 1.20.화
+2026-05-09 10:16:12,037 - INFO -     - [수집 진행] 탐라방랑 | 25.12.29.월
+2026-05-09 10:16:12,615 - INFO -     - [수집 진행] isawara | 25.11.26.수
+2026-05-09 10:16:13,199 - INFO -     - [수집 진행] jw_**** | 25.11.19.수
+2026-05-09 10:16:13,268 - INFO -     - [수집 진행] 카노라떼 | 25.11.1.토
+2026-05-09 10:16:13,352 - INFO -     - [수집 진행] TW777 | 25.9.22.월
+2026-05-09 10:16:13,353 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:16:21,048 - INFO - 🪧 '맘스터치 제주세화점' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:16:25,449 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 구좌로 91 1층)
+2026-05-09 10:16:34,696 - INFO -     - [수집 진행] 탐라방랑 | 2.10.화
+2026-05-09 10:16:34,772 - INFO -     - [수집 진행] sug**** | 25.11.28.금
+2026-05-09 10:16:34,852 - INFO -     - [수집 진행] 샤범아범 | 25.9.4.목
+2026-05-09 10:16:35,442 - INFO -     - [수집 진행] 유닝87 | 25.8.7.목
+2026-05-09 10:16:36,024 - INFO -     - [수집 진행] 종로 일짱이 꿈 | 25.8.2.토
+2026-05-09 10:16:36,099 - INFO -     - [수집 진행] 웃음천사86 | 25.7.29.화
+2026-05-09 10:16:36,176 - INFO -     - [수집 진행] 탐라방랑 | 25.2.25.화
+2026-05-09 10:16:36,751 - INFO -     - [수집 진행] 래몬캔디19 | 25.2.18.화
+2026-05-09 10:16:37,337 - INFO -     - [수집 진행] 오늘의 메뉴는 | 24.12.31.화
+2026-05-09 10:16:37,421 - INFO -     - [수집 진행] 박경민4259 | 24.12.24.화
+2026-05-09 10:16:37,424 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:16:54,959 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5585aaa7779a <unknown>
+#1 0x5585aa473215 <unknown>
+#2 0x5585aa4c5f06 <unknown>
+#3 0x5585aa4c6141 <unknown>
+#4 0x5585aa511634 <unknown>
+#5 0x5585aa50e7d0 <unknown>
+#6 0x5585aa4b955f <unknown>
+#7 0x5585aa4ba321 <unknown>
+#8 0x5585aaa3b06b <unknown>
+#9 0x5585aaa3e01d <unknown>
+#10 0x5585aaa27718 <unknown>
+#11 0x5585aaa3ebb0 <unknown>
+#12 0x5585aaa0e150 <unknown>
+#13 0x5585aaa645e8 <unknown>
+#14 0x5585aaa647b8 <unknown>
+#15 0x5585aaa761de <unknown>
+#16 0x7f944489caa4 <unknown>
+#17 0x7f9444929c6c <unknown>
+
+2026-05-09 10:16:54,959 - WARNING - ⚠️ '그계절' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:17:00,068 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:17:00,068 - INFO - ====== WebDriver manager ======
+2026-05-09 10:17:00,134 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:17:00,163 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:17:00,190 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:17:09,656 - INFO - 🪧 '그계절' 검색 결과 순회 시작 - 총 7개 항목 발견
+2026-05-09 10:17:14,397 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 한동로 119 1동)
+2026-05-09 10:17:24,202 - INFO -     - [수집 진행] Monchef | 4.13.월
+2026-05-09 10:17:24,776 - INFO -     - [수집 진행] 강마루95 | 3.22.일
+2026-05-09 10:17:24,864 - INFO -     - [수집 진행] AhahahahaiD | 1.18.일
+2026-05-09 10:17:24,943 - INFO -     - [수집 진행] 안산땍 | 25.12.5.금
+2026-05-09 10:17:25,023 - INFO -     - [수집 진행] 고님꺼 | 25.11.13.목
+2026-05-09 10:17:25,104 - INFO -     - [수집 진행] 날다언니80 | 25.11.6.목
+2026-05-09 10:17:25,182 - INFO -     - [수집 진행] 우움쓰 | 25.10.20.월
+2026-05-09 10:17:25,264 - INFO -     - [수집 진행] 테일러빗 | 25.9.29.월
+2026-05-09 10:17:25,848 - INFO -     - [수집 진행] nyg**** | 25.9.20.토
+2026-05-09 10:17:26,433 - INFO -     - [수집 진행] orange8590 | 25.9.19.금
+2026-05-09 10:17:26,435 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:17:34,270 - INFO - 🪧 '별방촌' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:17:38,599 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 해맞이해안로 1480)
+2026-05-09 10:17:47,837 - INFO -     - [수집 진행] 먹깨비황새 | 3.8.일
+2026-05-09 10:17:47,915 - INFO -     - [수집 진행] 해앵복하자 | 2.27.금
+2026-05-09 10:17:47,992 - INFO -     - [수집 진행] 해앵복하자 | 2.26.목
+2026-05-09 10:17:48,580 - INFO -     - [수집 진행] 동남아왕자 | 25.11.9.일
+2026-05-09 10:17:48,658 - INFO -     - [수집 진행] littlekid07 | 25.11.6.목
+2026-05-09 10:17:48,733 - INFO -     - [수집 진행] 스릴만땅 | 25.10.13.월
+2026-05-09 10:17:49,301 - INFO -     - [수집 진행] 스트레이달 | 25.9.10.수
+2026-05-09 10:17:49,368 - INFO -     - [수집 진행] uny**** | 25.7.16.수
+2026-05-09 10:17:49,445 - INFO -     - [수집 진행] someone8482 | 25.5.17.토
+2026-05-09 10:17:49,514 - INFO -     - [수집 진행] hal**** | 25.3.30.일
+2026-05-09 10:17:49,515 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:17:57,749 - INFO - 🪧 '제주 고래날다 월정리본점' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:18:02,548 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 월정3길 53-7 1층 제주 고래날다 월정리본점)
+2026-05-09 10:18:11,788 - INFO -     - [수집 진행] 매운우리새끼 | 4.2.목
+2026-05-09 10:18:12,379 - INFO -     - [수집 진행] pal**** | 3.23.월
+2026-05-09 10:18:12,457 - INFO -     - [수집 진행] 히어로8417 | 3.5.목
+2026-05-09 10:18:12,536 - INFO -     - [수집 진행] 클래식준하 | 2.26.목
+2026-05-09 10:18:12,613 - INFO -     - [수집 진행] sk129 | 2.26.목
+2026-05-09 10:18:12,689 - INFO -     - [수집 진행] 뜡뚱샴 | 1.15.목
+2026-05-09 10:18:13,260 - INFO -     - [수집 진행] 라니3912 | 1.9.금
+2026-05-09 10:18:13,327 - INFO -     - [수집 진행] 붕붕붕8429 | 1.3.토
+2026-05-09 10:18:13,412 - INFO -     - [수집 진행] soe**** | 25.12.30.화
+2026-05-09 10:18:13,495 - INFO -     - [수집 진행] 구아방5463 | 25.12.27.토
+2026-05-09 10:18:13,496 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:18:31,449 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x557f72fef79a <unknown>
+#1 0x557f729eb215 <unknown>
+#2 0x557f72a3df06 <unknown>
+#3 0x557f72a3e141 <unknown>
+#4 0x557f72a89634 <unknown>
+#5 0x557f72a867d0 <unknown>
+#6 0x557f72a3155f <unknown>
+#7 0x557f72a32321 <unknown>
+#8 0x557f72fb306b <unknown>
+#9 0x557f72fb601d <unknown>
+#10 0x557f72f9f718 <unknown>
+#11 0x557f72fb6bb0 <unknown>
+#12 0x557f72f86150 <unknown>
+#13 0x557f72fdc5e8 <unknown>
+#14 0x557f72fdc7b8 <unknown>
+#15 0x557f72fee1de <unknown>
+#16 0x7fefa0c9caa4 <unknown>
+#17 0x7fefa0d29c6c <unknown>
+
+2026-05-09 10:18:31,449 - WARNING - ⚠️ '세화카페텐더럽' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:18:36,546 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:18:36,546 - INFO - ====== WebDriver manager ======
+2026-05-09 10:18:36,612 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:18:36,641 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:18:36,669 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:18:45,974 - INFO - 🪧 '세화카페텐더럽' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:18:50,396 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 해맞이해안로 1426 2층)
+2026-05-09 10:18:59,678 - INFO -     - [수집 진행] wsb**** | 5.4.월
+2026-05-09 10:19:00,270 - INFO -     - [수집 진행] 전재돈 | 5.3.일
+2026-05-09 10:19:00,348 - INFO -     - [수집 진행] dhr**** | 5.2.토
+2026-05-09 10:19:00,427 - INFO -     - [수집 진행] 뱀이사는토끼굴 | 5.2.토
+2026-05-09 10:19:00,505 - INFO -     - [수집 진행] zlzl키키 | 4.18.토
+2026-05-09 10:19:01,078 - INFO -     - [수집 진행] blu**** | 4.17.금
+2026-05-09 10:19:01,233 - INFO -     - [수집 진행] 준텐딩 | 4.5.일
+2026-05-09 10:19:01,809 - INFO -     - [수집 진행] Swingman23 | 4.1.수
+2026-05-09 10:19:02,381 - INFO -     - [수집 진행] 이선우85 | 3.20.금
+2026-05-09 10:19:02,472 - INFO -     - [수집 진행] kor**** | 3.15.일
+2026-05-09 10:19:02,474 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:19:09,861 - INFO - 🪧 '대수굴식당' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:19:14,422 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 대수길 10-4)
+2026-05-09 10:19:24,203 - INFO -     - [수집 진행] 화서위브 금터부동산 | 4.17.금
+2026-05-09 10:19:24,792 - INFO -     - [수집 진행] 세상만사 늴리리 | 3.30.월
+2026-05-09 10:19:25,369 - INFO -     - [수집 진행] hyeseung89 | 3.2.월
+2026-05-09 10:19:25,441 - INFO -     - [수집 진행] juwonlala | 2.26.목
+2026-05-09 10:19:25,516 - INFO -     - [수집 진행] atc20 | 2.25.수
+2026-05-09 10:19:26,095 - INFO -     - [수집 진행] 복덩이61 | 2.22.일
+2026-05-09 10:19:26,164 - INFO -     - [수집 진행] 트레져나인35 | 2.21.토
+2026-05-09 10:19:26,726 - INFO -     - [수집 진행] 원더우먼1362 | 2.14.토
+2026-05-09 10:19:26,803 - INFO -     - [수집 진행] SHkey42 | 2.12.목
+2026-05-09 10:19:27,375 - INFO -     - [수집 진행] 단무지킵해두는총총 | 25.12.1.월
+2026-05-09 10:19:27,376 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:19:43,829 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55bfeadf179a <unknown>
+#1 0x55bfea7ed215 <unknown>
+#2 0x55bfea83ff06 <unknown>
+#3 0x55bfea840141 <unknown>
+#4 0x55bfea88b634 <unknown>
+#5 0x55bfea8887d0 <unknown>
+#6 0x55bfea83355f <unknown>
+#7 0x55bfea834321 <unknown>
+#8 0x55bfeadb506b <unknown>
+#9 0x55bfeadb801d <unknown>
+#10 0x55bfeada1718 <unknown>
+#11 0x55bfeadb8bb0 <unknown>
+#12 0x55bfead88150 <unknown>
+#13 0x55bfeadde5e8 <unknown>
+#14 0x55bfeadde7b8 <unknown>
+#15 0x55bfeadf01de <unknown>
+#16 0x7f2c3ee9caa4 <unknown>
+#17 0x7f2c3ef29c6c <unknown>
+
+2026-05-09 10:19:43,829 - WARNING - ⚠️ '머물다' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:19:48,929 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:19:48,930 - INFO - ====== WebDriver manager ======
+2026-05-09 10:19:48,996 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:19:49,023 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:19:49,049 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:19:59,560 - INFO - 🪧 '머물다' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:20:05,440 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 월정중길 20 1층)
+2026-05-09 10:20:15,249 - INFO -     - [수집 진행] mad**** | 4.23.목
+2026-05-09 10:20:15,329 - INFO -     - [수집 진행] songhj8328 | 2.26.목
+2026-05-09 10:20:15,910 - INFO -     - [수집 진행] 미식한고독자 | 25.12.30.화
+2026-05-09 10:20:15,992 - INFO -     - [수집 진행] 금은화63 | 25.12.21.일
+2026-05-09 10:20:16,582 - INFO -     - [수집 진행] 노노나냐 | 25.11.10.월
+2026-05-09 10:20:16,667 - INFO -     - [수집 진행] EspressoLee | 25.8.7.목
+2026-05-09 10:20:16,752 - INFO -     - [수집 진행] orangewine | 25.5.28.수
+2026-05-09 10:20:17,340 - INFO -     - [수집 진행] 씩씩한효야 | 25.3.15.토
+2026-05-09 10:20:17,931 - INFO -     - [수집 진행] 커피좋아하는 | 25.2.14.금
+2026-05-09 10:20:18,515 - INFO -     - [수집 진행] 허브티좋아 | 24.12.25.수
+2026-05-09 10:20:18,516 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:20:26,716 - INFO - 🪧 '그릉그릉 파스타가게' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:20:31,404 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 구좌로 31)
+2026-05-09 10:20:40,678 - INFO -     - [수집 진행] rud**** | 5.4.월
+2026-05-09 10:20:41,270 - INFO -     - [수집 진행] juwonlala | 2.16.월
+2026-05-09 10:20:41,856 - INFO -     - [수집 진행] idon1215 | 2.14.토
+2026-05-09 10:20:42,434 - INFO -     - [수집 진행] 젤리데이95 | 1.1.목
+2026-05-09 10:20:43,016 - INFO -     - [수집 진행] kan**** | 25.12.29.월
+2026-05-09 10:20:43,094 - INFO -     - [수집 진행] 올레츄 | 25.12.21.일
+2026-05-09 10:20:43,174 - INFO -     - [수집 진행] sLOAHs | 25.11.2.일
+2026-05-09 10:20:43,754 - INFO -     - [수집 진행] nuee030 | 25.9.20.토
+2026-05-09 10:20:43,831 - INFO -     - [수집 진행] 두아이아빠1 | 25.9.17.수
+2026-05-09 10:20:44,422 - INFO -     - [수집 진행] 숮두부 | 25.9.17.수
+2026-05-09 10:20:44,423 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:21:01,885 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55604660b79a <unknown>
+#1 0x556046007215 <unknown>
+#2 0x556046059f06 <unknown>
+#3 0x55604605a141 <unknown>
+#4 0x5560460a5634 <unknown>
+#5 0x5560460a27d0 <unknown>
+#6 0x55604604d55f <unknown>
+#7 0x55604604e321 <unknown>
+#8 0x5560465cf06b <unknown>
+#9 0x5560465d201d <unknown>
+#10 0x5560465bb718 <unknown>
+#11 0x5560465d2bb0 <unknown>
+#12 0x5560465a2150 <unknown>
+#13 0x5560465f85e8 <unknown>
+#14 0x5560465f87b8 <unknown>
+#15 0x55604660a1de <unknown>
+#16 0x7f31ad69caa4 <unknown>
+#17 0x7f31ad729c6c <unknown>
+
+2026-05-09 10:21:01,885 - WARNING - ⚠️ '밥에제주를담다' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:21:06,975 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:21:06,975 - INFO - ====== WebDriver manager ======
+2026-05-09 10:21:07,041 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:21:07,072 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:21:07,098 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:21:26,272 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55924592579a <unknown>
+#1 0x559245321215 <unknown>
+#2 0x559245373f06 <unknown>
+#3 0x559245374141 <unknown>
+#4 0x5592453bf634 <unknown>
+#5 0x5592453bc7d0 <unknown>
+#6 0x55924536755f <unknown>
+#7 0x559245368321 <unknown>
+#8 0x5592458e906b <unknown>
+#9 0x5592458ec01d <unknown>
+#10 0x5592458d5718 <unknown>
+#11 0x5592458ecbb0 <unknown>
+#12 0x5592458bc150 <unknown>
+#13 0x5592459125e8 <unknown>
+#14 0x5592459127b8 <unknown>
+#15 0x5592459241de <unknown>
+#16 0x7fc338c9caa4 <unknown>
+#17 0x7fc338d29c6c <unknown>
+
+2026-05-09 10:21:26,272 - WARNING - ⚠️ '밥에제주를담다' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:21:36,354 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:21:36,355 - INFO - ====== WebDriver manager ======
+2026-05-09 10:21:36,421 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:21:36,448 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:21:36,475 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:21:46,259 - INFO - 🪧 '밥에제주를담다' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:21:50,493 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 해맞이해안로 2060-20 아모르하우스 1층 밥에제주를담다)
+2026-05-09 10:22:00,309 - INFO -     - [수집 진행] Leaissimo | 5.8.금
+2026-05-09 10:22:00,891 - INFO -     - [수집 진행] 도와주셈 | 5.3.일
+2026-05-09 10:22:01,470 - INFO -     - [수집 진행] Ilrandb | 4.9.목
+2026-05-09 10:22:02,056 - INFO -     - [수집 진행] 감사97 | 4.2.목
+2026-05-09 10:22:02,638 - INFO -     - [수집 진행] 융4628 | 3.28.토
+2026-05-09 10:22:02,718 - INFO -     - [수집 진행] grace4136 | 3.28.토
+2026-05-09 10:22:02,793 - INFO -     - [수집 진행] 모토토우 | 3.25.수
+2026-05-09 10:22:02,873 - INFO -     - [수집 진행] 이랑5123 | 3.21.토
+2026-05-09 10:22:03,459 - INFO -     - [수집 진행] Windy68 | 3.21.토
+2026-05-09 10:22:03,542 - INFO -     - [수집 진행] 만두30 | 3.20.금
+2026-05-09 10:22:03,543 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:22:03,545 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 10:22:03,625 - INFO - ============================================================
+2026-05-09 10:22:03,625 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 10:22:03,827 - INFO - ✅ 정제 완료! (총 21197건 중 6037건 최종 저장)
+2026-05-09 10:22:05,478 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 10:22:13,486 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:22:13,486 - INFO - ====== WebDriver manager ======
+2026-05-09 10:22:13,552 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:22:13,579 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:22:13,605 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:22:24,069 - INFO - 🪧 '매코롬' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:22:29,143 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 김녕로 82 1층)
+2026-05-09 10:22:38,970 - INFO -     - [수집 진행] 마리온63 | 5.1.금
+2026-05-09 10:22:39,056 - INFO -     - [수집 진행] sm**** | 4.13.월
+2026-05-09 10:22:39,139 - INFO -     - [수집 진행] 브릭박스고촌 031 989 9387 | 4.2.목
+2026-05-09 10:22:39,221 - INFO -     - [수집 진행] 아아어오아 | 3.19.목
+2026-05-09 10:22:39,809 - INFO -     - [수집 진행] Amy1003 | 25.12.27.토
+2026-05-09 10:22:39,891 - INFO -     - [수집 진행] 201**** | 25.11.28.금
+2026-05-09 10:22:39,972 - INFO -     - [수집 진행] 네바다뒤뜰에서 | 25.11.8.토
+2026-05-09 10:22:40,052 - INFO -     - [수집 진행] 귀염둥이43 | 25.10.13.월
+2026-05-09 10:22:40,124 - INFO -     - [수집 진행] 리뷰는중요하다 | 25.10.3.금
+2026-05-09 10:22:40,723 - INFO -     - [수집 진행] umb**** | 25.9.23.화
+2026-05-09 10:22:40,725 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:22:58,034 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ac1922c79a <unknown>
+#1 0x55ac18c28215 <unknown>
+#2 0x55ac18c7af06 <unknown>
+#3 0x55ac18c7b141 <unknown>
+#4 0x55ac18cc6634 <unknown>
+#5 0x55ac18cc37d0 <unknown>
+#6 0x55ac18c6e55f <unknown>
+#7 0x55ac18c6f321 <unknown>
+#8 0x55ac191f006b <unknown>
+#9 0x55ac191f301d <unknown>
+#10 0x55ac191dc718 <unknown>
+#11 0x55ac191f3bb0 <unknown>
+#12 0x55ac191c3150 <unknown>
+#13 0x55ac192195e8 <unknown>
+#14 0x55ac192197b8 <unknown>
+#15 0x55ac1922b1de <unknown>
+#16 0x7f681e49caa4 <unknown>
+#17 0x7f681e529c6c <unknown>
+
+2026-05-09 10:22:58,034 - WARNING - ⚠️ '제주황금콩밭' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:23:03,122 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:23:03,123 - INFO - ====== WebDriver manager ======
+2026-05-09 10:23:03,188 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:23:03,216 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:23:03,243 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:23:12,390 - INFO - 🪧 '제주황금콩밭' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:23:16,879 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 한동북1길 4 1층)
+2026-05-09 10:23:26,169 - INFO -     - [수집 진행] 강캐띠 | 5.7.목
+2026-05-09 10:23:26,769 - INFO -     - [수집 진행] 스프스프스 | 5.4.월
+2026-05-09 10:23:26,847 - INFO -     - [수집 진행] 해밀752 | 5.3.일
+2026-05-09 10:23:26,925 - INFO -     - [수집 진행] 김라바바나나 | 5.1.금
+2026-05-09 10:23:27,004 - INFO -     - [수집 진행] 갑수징어 | 4.30.목
+2026-05-09 10:23:27,087 - INFO -     - [수집 진행] 까얀 | 4.23.목
+2026-05-09 10:23:27,665 - INFO -     - [수집 진행] 주름치마 | 4.13.월
+2026-05-09 10:23:27,747 - INFO -     - [수집 진행] 라군9 | 4.13.월
+2026-05-09 10:23:28,319 - INFO -     - [수집 진행] 말걸지마59 | 4.5.일
+2026-05-09 10:23:28,893 - INFO -     - [수집 진행] eun**** | 4.3.금
+2026-05-09 10:23:28,894 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:23:46,621 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5591a805a79a <unknown>
+#1 0x5591a7a56215 <unknown>
+#2 0x5591a7aa8f06 <unknown>
+#3 0x5591a7aa9141 <unknown>
+#4 0x5591a7af4634 <unknown>
+#5 0x5591a7af17d0 <unknown>
+#6 0x5591a7a9c55f <unknown>
+#7 0x5591a7a9d321 <unknown>
+#8 0x5591a801e06b <unknown>
+#9 0x5591a802101d <unknown>
+#10 0x5591a800a718 <unknown>
+#11 0x5591a8021bb0 <unknown>
+#12 0x5591a7ff1150 <unknown>
+#13 0x5591a80475e8 <unknown>
+#14 0x5591a80477b8 <unknown>
+#15 0x5591a80591de <unknown>
+#16 0x7f685009caa4 <unknown>
+#17 0x7f6850129c6c <unknown>
+
+2026-05-09 10:23:46,621 - WARNING - ⚠️ '송당산들네' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:23:51,708 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:23:51,708 - INFO - ====== WebDriver manager ======
+2026-05-09 10:23:51,775 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:23:51,809 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:23:51,837 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:24:02,650 - INFO - 🪧 '송당산들네' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:24:07,731 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 대천서길 11-8 1층)
+2026-05-09 10:24:17,017 - INFO -     - [수집 진행] 마시따머시따 | 5.3.일
+2026-05-09 10:24:17,100 - INFO -     - [수집 진행] sehyun061230 | 4.4.토
+2026-05-09 10:24:17,700 - INFO -     - [수집 진행] Allfree7 | 3.31.화
+2026-05-09 10:24:18,284 - INFO -     - [수집 진행] 상봉동 삼겹살 맛집 1등 꿀삼겹 | 2.7.토
+2026-05-09 10:24:18,859 - INFO -     - [수집 진행] Happyday5 | 1.26.월
+2026-05-09 10:24:19,449 - INFO -     - [수집 진행] 레인보우51 | 1.24.토
+2026-05-09 10:24:20,028 - INFO -     - [수집 진행] dd**** | 1.22.목
+2026-05-09 10:24:20,118 - INFO -     - [수집 진행] 매실478 | 1.14.수
+2026-05-09 10:24:20,207 - INFO -     - [수집 진행] Woosan | 1.3.토
+2026-05-09 10:24:20,786 - INFO -     - [수집 진행] myvrock | 1.1.목
+2026-05-09 10:24:20,787 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:24:38,605 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x564c4516779a <unknown>
+#1 0x564c44b63215 <unknown>
+#2 0x564c44bb5f06 <unknown>
+#3 0x564c44bb6141 <unknown>
+#4 0x564c44c01634 <unknown>
+#5 0x564c44bfe7d0 <unknown>
+#6 0x564c44ba955f <unknown>
+#7 0x564c44baa321 <unknown>
+#8 0x564c4512b06b <unknown>
+#9 0x564c4512e01d <unknown>
+#10 0x564c45117718 <unknown>
+#11 0x564c4512ebb0 <unknown>
+#12 0x564c450fe150 <unknown>
+#13 0x564c451545e8 <unknown>
+#14 0x564c451547b8 <unknown>
+#15 0x564c451661de <unknown>
+#16 0x7f86afa9caa4 <unknown>
+#17 0x7f86afb29c6c <unknown>
+
+2026-05-09 10:24:38,605 - WARNING - ⚠️ '별방정식' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:24:43,693 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:24:43,693 - INFO - ====== WebDriver manager ======
+2026-05-09 10:24:43,761 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:24:43,793 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:24:43,822 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:24:52,845 - INFO - 🪧 '별방정식' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:24:56,973 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 해맞이해안로 1744-8 1층)
+2026-05-09 10:25:06,288 - INFO -     - [수집 진행] mamamamiii | 4.15.수
+2026-05-09 10:25:06,370 - INFO -     - [수집 진행] 나이스샷하자 | 1.30.금
+2026-05-09 10:25:06,965 - INFO -     - [수집 진행] RA5836 | 1.17.토
+2026-05-09 10:25:07,050 - INFO -     - [수집 진행] 냉정한여자 | 1.11.일
+2026-05-09 10:25:07,125 - INFO -     - [수집 진행] 복쟁이97 | 1.7.수
+2026-05-09 10:25:07,201 - INFO -     - [수집 진행] 복쟁이97 | 1.6.화
+2026-05-09 10:25:07,272 - INFO -     - [수집 진행] 복쟁이97 | 1.5.월
+2026-05-09 10:25:07,342 - INFO -     - [수집 진행] 복쟁이97 | 1.3.토
+2026-05-09 10:25:07,414 - INFO -     - [수집 진행] 복쟁이97 | 1.2.금
+2026-05-09 10:25:07,497 - INFO -     - [수집 진행] 미밈미밈미밈미 | 25.12.28.일
+2026-05-09 10:25:07,499 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:25:15,492 - INFO - 🪧 '간조 제주세화' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:25:19,663 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 구좌로 34 1층)
+2026-05-09 10:25:29,453 - INFO -     - [수집 진행] 식탐생활 | 5.8.금
+2026-05-09 10:25:30,028 - INFO -     - [수집 진행] 주 연 | 5.3.일
+2026-05-09 10:25:30,610 - INFO -     - [수집 진행] ryu**** | 5.2.토
+2026-05-09 10:25:30,687 - INFO -     - [수집 진행] ton**** | 5.2.토
+2026-05-09 10:25:30,764 - INFO -     - [수집 진행] bil**** | 5.2.토
+2026-05-09 10:25:31,351 - INFO -     - [수집 진행] Seina | 4.21.화
+2026-05-09 10:25:31,931 - INFO -     - [수집 진행] 쪼매난별이 | 4.15.수
+2026-05-09 10:25:32,009 - INFO -     - [수집 진행] cssena | 4.15.수
+2026-05-09 10:25:32,088 - INFO -     - [수집 진행] sgee27 | 3.19.목
+2026-05-09 10:25:32,165 - INFO -     - [수집 진행] jih**** | 3.15.일
+2026-05-09 10:25:32,166 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:25:49,207 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55bdbb6ce79a <unknown>
+#1 0x55bdbb0ca215 <unknown>
+#2 0x55bdbb11cf06 <unknown>
+#3 0x55bdbb11d141 <unknown>
+#4 0x55bdbb168634 <unknown>
+#5 0x55bdbb1657d0 <unknown>
+#6 0x55bdbb11055f <unknown>
+#7 0x55bdbb111321 <unknown>
+#8 0x55bdbb69206b <unknown>
+#9 0x55bdbb69501d <unknown>
+#10 0x55bdbb67e718 <unknown>
+#11 0x55bdbb695bb0 <unknown>
+#12 0x55bdbb665150 <unknown>
+#13 0x55bdbb6bb5e8 <unknown>
+#14 0x55bdbb6bb7b8 <unknown>
+#15 0x55bdbb6cd1de <unknown>
+#16 0x7f41ac49caa4 <unknown>
+#17 0x7f41ac529c6c <unknown>
+
+2026-05-09 10:25:49,207 - WARNING - ⚠️ '지미씨네' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:25:54,295 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:25:54,295 - INFO - ====== WebDriver manager ======
+2026-05-09 10:25:54,363 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:25:54,396 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:25:54,425 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:26:04,209 - INFO - 🪧 '지미씨네' 검색 결과 순회 시작 - 총 1개 항목 발견
+2026-05-09 10:26:08,500 - INFO -   📍 [일치 장소 발견!] [] (제주 제주시 구좌읍 하도15길 107-6 1층, 지미씨네)
+2026-05-09 10:26:18,303 - INFO -     - [수집 진행] 린8464 | 5.4.월
+2026-05-09 10:26:18,882 - INFO -     - [수집 진행] wlw**** | 5.3.일
+2026-05-09 10:26:19,461 - INFO -     - [수집 진행] nh**** | 5.1.금
+2026-05-09 10:26:20,057 - INFO -     - [수집 진행] 설3034 | 4.30.목
+2026-05-09 10:26:20,644 - INFO -     - [수집 진행] abc**** | 4.27.월
+2026-05-09 10:26:21,227 - INFO -     - [수집 진행] 채영승수맘72 | 4.27.월
+2026-05-09 10:26:21,806 - INFO -     - [수집 진행] 478291 | 4.24.금
+2026-05-09 10:26:22,390 - INFO -     - [수집 진행] Feel so GOOD | 4.19.일
+2026-05-09 10:26:22,978 - INFO -     - [수집 진행] 수정35 | 4.13.월
+2026-05-09 10:26:23,574 - INFO -     - [수집 진행] kim**** | 4.12.일
+2026-05-09 10:26:23,575 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (10건)
+2026-05-09 10:26:41,235 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x555f32a7779a <unknown>
+#1 0x555f32473215 <unknown>
+#2 0x555f324c5f06 <unknown>
+#3 0x555f324c6141 <unknown>
+#4 0x555f32511634 <unknown>
+#5 0x555f3250e7d0 <unknown>
+#6 0x555f324b955f <unknown>
+#7 0x555f324ba321 <unknown>
+#8 0x555f32a3b06b <unknown>
+#9 0x555f32a3e01d <unknown>
+#10 0x555f32a27718 <unknown>
+#11 0x555f32a3ebb0 <unknown>
+#12 0x555f32a0e150 <unknown>
+#13 0x555f32a645e8 <unknown>
+#14 0x555f32a647b8 <unknown>
+#15 0x555f32a761de <unknown>
+#16 0x7f357fa9caa4 <unknown>
+#17 0x7f357fb29c6c <unknown>
+
+2026-05-09 10:26:41,235 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:26:46,322 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:26:46,322 - INFO - ====== WebDriver manager ======
+2026-05-09 10:26:46,389 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:26:46,416 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:26:46,443 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:26:56,495 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:27:01,645 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:27:01,646 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:27:19,132 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ec1742779a <unknown>
+#1 0x55ec16e23215 <unknown>
+#2 0x55ec16e75f06 <unknown>
+#3 0x55ec16e76141 <unknown>
+#4 0x55ec16ec1634 <unknown>
+#5 0x55ec16ebe7d0 <unknown>
+#6 0x55ec16e6955f <unknown>
+#7 0x55ec16e6a321 <unknown>
+#8 0x55ec173eb06b <unknown>
+#9 0x55ec173ee01d <unknown>
+#10 0x55ec173d7718 <unknown>
+#11 0x55ec173eebb0 <unknown>
+#12 0x55ec173be150 <unknown>
+#13 0x55ec174145e8 <unknown>
+#14 0x55ec174147b8 <unknown>
+#15 0x55ec174261de <unknown>
+#16 0x7faf3289caa4 <unknown>
+#17 0x7faf32929c6c <unknown>
+
+2026-05-09 10:27:19,132 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:27:24,213 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:27:24,214 - INFO - ====== WebDriver manager ======
+2026-05-09 10:27:24,279 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:27:24,307 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:27:24,334 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:27:35,162 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:27:40,316 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:27:40,317 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:27:48,832 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:27:53,968 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:27:53,969 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:28:10,699 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5574ae4e679a <unknown>
+#1 0x5574adee2215 <unknown>
+#2 0x5574adf34f06 <unknown>
+#3 0x5574adf35141 <unknown>
+#4 0x5574adf80634 <unknown>
+#5 0x5574adf7d7d0 <unknown>
+#6 0x5574adf2855f <unknown>
+#7 0x5574adf29321 <unknown>
+#8 0x5574ae4aa06b <unknown>
+#9 0x5574ae4ad01d <unknown>
+#10 0x5574ae496718 <unknown>
+#11 0x5574ae4adbb0 <unknown>
+#12 0x5574ae47d150 <unknown>
+#13 0x5574ae4d35e8 <unknown>
+#14 0x5574ae4d37b8 <unknown>
+#15 0x5574ae4e51de <unknown>
+#16 0x7f095d29caa4 <unknown>
+#17 0x7f095d329c6c <unknown>
+
+2026-05-09 10:28:10,699 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:28:15,782 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:28:15,783 - INFO - ====== WebDriver manager ======
+2026-05-09 10:28:15,849 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:28:15,877 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:28:15,903 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:28:24,717 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:28:29,871 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:28:29,872 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:28:46,181 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x561ea58a779a <unknown>
+#1 0x561ea52a3215 <unknown>
+#2 0x561ea52f5f06 <unknown>
+#3 0x561ea52f6141 <unknown>
+#4 0x561ea5341634 <unknown>
+#5 0x561ea533e7d0 <unknown>
+#6 0x561ea52e955f <unknown>
+#7 0x561ea52ea321 <unknown>
+#8 0x561ea586b06b <unknown>
+#9 0x561ea586e01d <unknown>
+#10 0x561ea5857718 <unknown>
+#11 0x561ea586ebb0 <unknown>
+#12 0x561ea583e150 <unknown>
+#13 0x561ea58945e8 <unknown>
+#14 0x561ea58947b8 <unknown>
+#15 0x561ea58a61de <unknown>
+#16 0x7f305f09caa4 <unknown>
+#17 0x7f305f129c6c <unknown>
+
+2026-05-09 10:28:46,181 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:28:51,262 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:28:51,262 - INFO - ====== WebDriver manager ======
+2026-05-09 10:28:51,329 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:28:51,357 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:28:51,385 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:29:00,785 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:29:05,939 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:29:05,940 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:29:22,543 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5616136c679a <unknown>
+#1 0x5616130c2215 <unknown>
+#2 0x561613114f06 <unknown>
+#3 0x561613115141 <unknown>
+#4 0x561613160634 <unknown>
+#5 0x56161315d7d0 <unknown>
+#6 0x56161310855f <unknown>
+#7 0x561613109321 <unknown>
+#8 0x56161368a06b <unknown>
+#9 0x56161368d01d <unknown>
+#10 0x561613676718 <unknown>
+#11 0x56161368dbb0 <unknown>
+#12 0x56161365d150 <unknown>
+#13 0x5616136b35e8 <unknown>
+#14 0x5616136b37b8 <unknown>
+#15 0x5616136c51de <unknown>
+#16 0x7fbfb209caa4 <unknown>
+#17 0x7fbfb2129c6c <unknown>
+
+2026-05-09 10:29:22,543 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:29:27,623 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:29:27,624 - INFO - ====== WebDriver manager ======
+2026-05-09 10:29:27,689 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:29:27,721 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:29:27,752 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:29:37,996 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:29:43,150 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:29:43,151 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:29:51,360 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:29:56,501 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:29:56,502 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:30:03,652 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:30:08,793 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:30:08,795 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:30:24,742 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55d816f2679a <unknown>
+#1 0x55d816922215 <unknown>
+#2 0x55d816974f06 <unknown>
+#3 0x55d816975141 <unknown>
+#4 0x55d8169c0634 <unknown>
+#5 0x55d8169bd7d0 <unknown>
+#6 0x55d81696855f <unknown>
+#7 0x55d816969321 <unknown>
+#8 0x55d816eea06b <unknown>
+#9 0x55d816eed01d <unknown>
+#10 0x55d816ed6718 <unknown>
+#11 0x55d816eedbb0 <unknown>
+#12 0x55d816ebd150 <unknown>
+#13 0x55d816f135e8 <unknown>
+#14 0x55d816f137b8 <unknown>
+#15 0x55d816f251de <unknown>
+#16 0x7f421629caa4 <unknown>
+#17 0x7f4216329c6c <unknown>
+
+2026-05-09 10:30:24,742 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:30:29,825 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:30:29,825 - INFO - ====== WebDriver manager ======
+2026-05-09 10:30:29,891 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:30:29,921 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:30:29,947 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:30:40,585 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:30:45,737 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:30:45,738 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:31:03,007 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ef82e9a79a <unknown>
+#1 0x55ef82896215 <unknown>
+#2 0x55ef828e8f06 <unknown>
+#3 0x55ef828e9141 <unknown>
+#4 0x55ef82934634 <unknown>
+#5 0x55ef829317d0 <unknown>
+#6 0x55ef828dc55f <unknown>
+#7 0x55ef828dd321 <unknown>
+#8 0x55ef82e5e06b <unknown>
+#9 0x55ef82e6101d <unknown>
+#10 0x55ef82e4a718 <unknown>
+#11 0x55ef82e61bb0 <unknown>
+#12 0x55ef82e31150 <unknown>
+#13 0x55ef82e875e8 <unknown>
+#14 0x55ef82e877b8 <unknown>
+#15 0x55ef82e991de <unknown>
+#16 0x7f97ebc9caa4 <unknown>
+#17 0x7f97ebd29c6c <unknown>
+
+2026-05-09 10:31:03,007 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:31:08,094 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:31:08,095 - INFO - ====== WebDriver manager ======
+2026-05-09 10:31:08,161 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:31:08,188 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:31:08,216 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:31:18,365 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:31:23,517 - WARNING -   ⚠️ 'nan'(주소: 제주)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:31:23,518 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:31:32,297 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:31:37,425 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:31:37,426 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:31:45,213 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:31:50,349 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:31:50,350 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:31:59,116 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:32:04,258 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:32:04,260 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:32:20,879 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55efbfa5779a <unknown>
+#1 0x55efbf453215 <unknown>
+#2 0x55efbf4a5f06 <unknown>
+#3 0x55efbf4a6141 <unknown>
+#4 0x55efbf4f1634 <unknown>
+#5 0x55efbf4ee7d0 <unknown>
+#6 0x55efbf49955f <unknown>
+#7 0x55efbf49a321 <unknown>
+#8 0x55efbfa1b06b <unknown>
+#9 0x55efbfa1e01d <unknown>
+#10 0x55efbfa07718 <unknown>
+#11 0x55efbfa1ebb0 <unknown>
+#12 0x55efbf9ee150 <unknown>
+#13 0x55efbfa445e8 <unknown>
+#14 0x55efbfa447b8 <unknown>
+#15 0x55efbfa561de <unknown>
+#16 0x7f47a2a9caa4 <unknown>
+#17 0x7f47a2b29c6c <unknown>
+
+2026-05-09 10:32:20,879 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:32:25,975 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:32:25,975 - INFO - ====== WebDriver manager ======
+2026-05-09 10:32:26,042 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:32:26,076 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:32:26,106 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:32:44,813 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56256ab1d79a <unknown>
+#1 0x56256a519215 <unknown>
+#2 0x56256a56bf06 <unknown>
+#3 0x56256a56c141 <unknown>
+#4 0x56256a5b7634 <unknown>
+#5 0x56256a5b47d0 <unknown>
+#6 0x56256a55f55f <unknown>
+#7 0x56256a560321 <unknown>
+#8 0x56256aae106b <unknown>
+#9 0x56256aae401d <unknown>
+#10 0x56256aacd718 <unknown>
+#11 0x56256aae4bb0 <unknown>
+#12 0x56256aab4150 <unknown>
+#13 0x56256ab0a5e8 <unknown>
+#14 0x56256ab0a7b8 <unknown>
+#15 0x56256ab1c1de <unknown>
+#16 0x7fc18c49caa4 <unknown>
+#17 0x7fc18c529c6c <unknown>
+
+2026-05-09 10:32:44,813 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:32:54,894 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:32:54,894 - INFO - ====== WebDriver manager ======
+2026-05-09 10:32:54,960 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:32:54,993 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:32:55,023 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:33:04,708 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:33:09,866 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:33:09,867 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:33:09,869 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 10:33:09,942 - INFO - ============================================================
+2026-05-09 10:33:09,943 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 10:33:10,136 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 10:33:11,641 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 10:33:19,649 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:33:19,649 - INFO - ====== WebDriver manager ======
+2026-05-09 10:33:19,716 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:33:19,744 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:33:19,771 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:33:30,148 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:33:35,301 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:33:35,302 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:33:43,955 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:33:49,094 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:33:49,095 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:34:05,324 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55f5292b379a <unknown>
+#1 0x55f528caf215 <unknown>
+#2 0x55f528d01f06 <unknown>
+#3 0x55f528d02141 <unknown>
+#4 0x55f528d4d634 <unknown>
+#5 0x55f528d4a7d0 <unknown>
+#6 0x55f528cf555f <unknown>
+#7 0x55f528cf6321 <unknown>
+#8 0x55f52927706b <unknown>
+#9 0x55f52927a01d <unknown>
+#10 0x55f529263718 <unknown>
+#11 0x55f52927abb0 <unknown>
+#12 0x55f52924a150 <unknown>
+#13 0x55f5292a05e8 <unknown>
+#14 0x55f5292a07b8 <unknown>
+#15 0x55f5292b21de <unknown>
+#16 0x7f424989caa4 <unknown>
+#17 0x7f4249929c6c <unknown>
+
+2026-05-09 10:34:05,324 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:34:10,407 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:34:10,408 - INFO - ====== WebDriver manager ======
+2026-05-09 10:34:10,474 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:34:10,502 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:34:10,529 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:34:20,141 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:34:25,306 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:34:25,307 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:34:32,828 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:34:37,968 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:34:37,969 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:34:54,016 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55a5d907579a <unknown>
+#1 0x55a5d8a71215 <unknown>
+#2 0x55a5d8ac3f06 <unknown>
+#3 0x55a5d8ac4141 <unknown>
+#4 0x55a5d8b0f634 <unknown>
+#5 0x55a5d8b0c7d0 <unknown>
+#6 0x55a5d8ab755f <unknown>
+#7 0x55a5d8ab8321 <unknown>
+#8 0x55a5d903906b <unknown>
+#9 0x55a5d903c01d <unknown>
+#10 0x55a5d9025718 <unknown>
+#11 0x55a5d903cbb0 <unknown>
+#12 0x55a5d900c150 <unknown>
+#13 0x55a5d90625e8 <unknown>
+#14 0x55a5d90627b8 <unknown>
+#15 0x55a5d90741de <unknown>
+#16 0x7f1f86a9caa4 <unknown>
+#17 0x7f1f86b29c6c <unknown>
+
+2026-05-09 10:34:54,016 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:34:59,100 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:34:59,101 - INFO - ====== WebDriver manager ======
+2026-05-09 10:34:59,166 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:34:59,195 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:34:59,226 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:35:08,503 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:35:13,650 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:35:13,651 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:35:31,036 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55bf7885e79a <unknown>
+#1 0x55bf7825a215 <unknown>
+#2 0x55bf782acf06 <unknown>
+#3 0x55bf782ad141 <unknown>
+#4 0x55bf782f8634 <unknown>
+#5 0x55bf782f57d0 <unknown>
+#6 0x55bf782a055f <unknown>
+#7 0x55bf782a1321 <unknown>
+#8 0x55bf7882206b <unknown>
+#9 0x55bf7882501d <unknown>
+#10 0x55bf7880e718 <unknown>
+#11 0x55bf78825bb0 <unknown>
+#12 0x55bf787f5150 <unknown>
+#13 0x55bf7884b5e8 <unknown>
+#14 0x55bf7884b7b8 <unknown>
+#15 0x55bf7885d1de <unknown>
+#16 0x7efcb349caa4 <unknown>
+#17 0x7efcb3529c6c <unknown>
+
+2026-05-09 10:35:31,036 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:35:36,117 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:35:36,117 - INFO - ====== WebDriver manager ======
+2026-05-09 10:35:36,182 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:35:36,210 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:35:36,238 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:35:46,674 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:35:51,820 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:35:51,821 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:36:09,004 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x563eecc9e79a <unknown>
+#1 0x563eec69a215 <unknown>
+#2 0x563eec6ecf06 <unknown>
+#3 0x563eec6ed141 <unknown>
+#4 0x563eec738634 <unknown>
+#5 0x563eec7357d0 <unknown>
+#6 0x563eec6e055f <unknown>
+#7 0x563eec6e1321 <unknown>
+#8 0x563eecc6206b <unknown>
+#9 0x563eecc6501d <unknown>
+#10 0x563eecc4e718 <unknown>
+#11 0x563eecc65bb0 <unknown>
+#12 0x563eecc35150 <unknown>
+#13 0x563eecc8b5e8 <unknown>
+#14 0x563eecc8b7b8 <unknown>
+#15 0x563eecc9d1de <unknown>
+#16 0x7f9fdf69caa4 <unknown>
+#17 0x7f9fdf729c6c <unknown>
+
+2026-05-09 10:36:09,004 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:36:14,085 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:36:14,086 - INFO - ====== WebDriver manager ======
+2026-05-09 10:36:14,151 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:36:14,180 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:36:14,209 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:36:24,531 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:36:29,683 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:36:29,684 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:36:46,910 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x557cad9c879a <unknown>
+#1 0x557cad3c4215 <unknown>
+#2 0x557cad416f06 <unknown>
+#3 0x557cad417141 <unknown>
+#4 0x557cad462634 <unknown>
+#5 0x557cad45f7d0 <unknown>
+#6 0x557cad40a55f <unknown>
+#7 0x557cad40b321 <unknown>
+#8 0x557cad98c06b <unknown>
+#9 0x557cad98f01d <unknown>
+#10 0x557cad978718 <unknown>
+#11 0x557cad98fbb0 <unknown>
+#12 0x557cad95f150 <unknown>
+#13 0x557cad9b55e8 <unknown>
+#14 0x557cad9b57b8 <unknown>
+#15 0x557cad9c71de <unknown>
+#16 0x7f0a6b29caa4 <unknown>
+#17 0x7f0a6b329c6c <unknown>
+
+2026-05-09 10:36:46,910 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:36:51,991 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:36:51,991 - INFO - ====== WebDriver manager ======
+2026-05-09 10:36:52,056 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:36:52,084 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:36:52,112 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:37:02,190 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:37:07,343 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:37:07,344 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:37:16,282 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:37:21,417 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:37:21,418 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:37:29,474 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:37:34,613 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:37:34,614 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:37:41,850 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:37:46,993 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:37:46,994 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:38:04,238 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x558f3583979a <unknown>
+#1 0x558f35235215 <unknown>
+#2 0x558f35287f06 <unknown>
+#3 0x558f35288141 <unknown>
+#4 0x558f352d3634 <unknown>
+#5 0x558f352d07d0 <unknown>
+#6 0x558f3527b55f <unknown>
+#7 0x558f3527c321 <unknown>
+#8 0x558f357fd06b <unknown>
+#9 0x558f3580001d <unknown>
+#10 0x558f357e9718 <unknown>
+#11 0x558f35800bb0 <unknown>
+#12 0x558f357d0150 <unknown>
+#13 0x558f358265e8 <unknown>
+#14 0x558f358267b8 <unknown>
+#15 0x558f358381de <unknown>
+#16 0x7f6bc1e9caa4 <unknown>
+#17 0x7f6bc1f29c6c <unknown>
+
+2026-05-09 10:38:04,238 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:38:09,334 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:38:09,334 - INFO - ====== WebDriver manager ======
+2026-05-09 10:38:09,399 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:38:09,429 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:38:09,455 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:38:20,478 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:38:25,636 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:38:25,637 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:38:41,943 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ed370e379a <unknown>
+#1 0x55ed36adf215 <unknown>
+#2 0x55ed36b31f06 <unknown>
+#3 0x55ed36b32141 <unknown>
+#4 0x55ed36b7d634 <unknown>
+#5 0x55ed36b7a7d0 <unknown>
+#6 0x55ed36b2555f <unknown>
+#7 0x55ed36b26321 <unknown>
+#8 0x55ed370a706b <unknown>
+#9 0x55ed370aa01d <unknown>
+#10 0x55ed37093718 <unknown>
+#11 0x55ed370aabb0 <unknown>
+#12 0x55ed3707a150 <unknown>
+#13 0x55ed370d05e8 <unknown>
+#14 0x55ed370d07b8 <unknown>
+#15 0x55ed370e21de <unknown>
+#16 0x7f1de529caa4 <unknown>
+#17 0x7f1de5329c6c <unknown>
+
+2026-05-09 10:38:41,943 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:38:47,024 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:38:47,024 - INFO - ====== WebDriver manager ======
+2026-05-09 10:38:47,090 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:38:47,119 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:38:47,147 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:38:55,834 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:39:00,985 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:39:00,986 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:39:18,120 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56021561c79a <unknown>
+#1 0x560215018215 <unknown>
+#2 0x56021506af06 <unknown>
+#3 0x56021506b141 <unknown>
+#4 0x5602150b6634 <unknown>
+#5 0x5602150b37d0 <unknown>
+#6 0x56021505e55f <unknown>
+#7 0x56021505f321 <unknown>
+#8 0x5602155e006b <unknown>
+#9 0x5602155e301d <unknown>
+#10 0x5602155cc718 <unknown>
+#11 0x5602155e3bb0 <unknown>
+#12 0x5602155b3150 <unknown>
+#13 0x5602156095e8 <unknown>
+#14 0x5602156097b8 <unknown>
+#15 0x56021561b1de <unknown>
+#16 0x7f59a709caa4 <unknown>
+#17 0x7f59a7129c6c <unknown>
+
+2026-05-09 10:39:18,120 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:39:23,203 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:39:23,204 - INFO - ====== WebDriver manager ======
+2026-05-09 10:39:23,270 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:39:23,301 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:39:23,327 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:39:33,860 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:39:39,008 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:39:39,009 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:39:47,759 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:39:52,893 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:39:52,894 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:40:09,675 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55888598879a <unknown>
+#1 0x558885384215 <unknown>
+#2 0x5588853d6f06 <unknown>
+#3 0x5588853d7141 <unknown>
+#4 0x558885422634 <unknown>
+#5 0x55888541f7d0 <unknown>
+#6 0x5588853ca55f <unknown>
+#7 0x5588853cb321 <unknown>
+#8 0x55888594c06b <unknown>
+#9 0x55888594f01d <unknown>
+#10 0x558885938718 <unknown>
+#11 0x55888594fbb0 <unknown>
+#12 0x55888591f150 <unknown>
+#13 0x5588859755e8 <unknown>
+#14 0x5588859757b8 <unknown>
+#15 0x5588859871de <unknown>
+#16 0x7f975769caa4 <unknown>
+#17 0x7f9757729c6c <unknown>
+
+2026-05-09 10:40:09,675 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:40:14,757 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:40:14,757 - INFO - ====== WebDriver manager ======
+2026-05-09 10:40:14,823 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:40:14,850 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:40:14,879 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:40:24,810 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:40:29,977 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:40:29,978 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:40:46,038 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x558a3d05c79a <unknown>
+#1 0x558a3ca58215 <unknown>
+#2 0x558a3caaaf06 <unknown>
+#3 0x558a3caab141 <unknown>
+#4 0x558a3caf6634 <unknown>
+#5 0x558a3caf37d0 <unknown>
+#6 0x558a3ca9e55f <unknown>
+#7 0x558a3ca9f321 <unknown>
+#8 0x558a3d02006b <unknown>
+#9 0x558a3d02301d <unknown>
+#10 0x558a3d00c718 <unknown>
+#11 0x558a3d023bb0 <unknown>
+#12 0x558a3cff3150 <unknown>
+#13 0x558a3d0495e8 <unknown>
+#14 0x558a3d0497b8 <unknown>
+#15 0x558a3d05b1de <unknown>
+#16 0x7f5a9809caa4 <unknown>
+#17 0x7f5a98129c6c <unknown>
+
+2026-05-09 10:40:46,038 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:40:51,118 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:40:51,118 - INFO - ====== WebDriver manager ======
+2026-05-09 10:40:51,183 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:40:51,211 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:40:51,237 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:41:01,294 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:41:06,440 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:41:06,441 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:41:22,792 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x557c87e8079a <unknown>
+#1 0x557c8787c215 <unknown>
+#2 0x557c878cef06 <unknown>
+#3 0x557c878cf141 <unknown>
+#4 0x557c8791a634 <unknown>
+#5 0x557c879177d0 <unknown>
+#6 0x557c878c255f <unknown>
+#7 0x557c878c3321 <unknown>
+#8 0x557c87e4406b <unknown>
+#9 0x557c87e4701d <unknown>
+#10 0x557c87e30718 <unknown>
+#11 0x557c87e47bb0 <unknown>
+#12 0x557c87e17150 <unknown>
+#13 0x557c87e6d5e8 <unknown>
+#14 0x557c87e6d7b8 <unknown>
+#15 0x557c87e7f1de <unknown>
+#16 0x7f002fe9caa4 <unknown>
+#17 0x7f002ff29c6c <unknown>
+
+2026-05-09 10:41:22,792 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:41:27,874 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:41:27,874 - INFO - ====== WebDriver manager ======
+2026-05-09 10:41:27,939 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:41:27,967 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:41:27,995 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:41:36,937 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:41:42,101 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:41:42,102 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:41:59,587 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x556026ff279a <unknown>
+#1 0x5560269ee215 <unknown>
+#2 0x556026a40f06 <unknown>
+#3 0x556026a41141 <unknown>
+#4 0x556026a8c634 <unknown>
+#5 0x556026a897d0 <unknown>
+#6 0x556026a3455f <unknown>
+#7 0x556026a35321 <unknown>
+#8 0x556026fb606b <unknown>
+#9 0x556026fb901d <unknown>
+#10 0x556026fa2718 <unknown>
+#11 0x556026fb9bb0 <unknown>
+#12 0x556026f89150 <unknown>
+#13 0x556026fdf5e8 <unknown>
+#14 0x556026fdf7b8 <unknown>
+#15 0x556026ff11de <unknown>
+#16 0x7fc32c49caa4 <unknown>
+#17 0x7fc32c529c6c <unknown>
+
+2026-05-09 10:41:59,587 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:42:04,667 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:42:04,668 - INFO - ====== WebDriver manager ======
+2026-05-09 10:42:04,733 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:42:04,761 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:42:04,787 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:42:13,576 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:42:18,731 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:42:18,732 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:42:36,312 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x560f2b8c279a <unknown>
+#1 0x560f2b2be215 <unknown>
+#2 0x560f2b310f06 <unknown>
+#3 0x560f2b311141 <unknown>
+#4 0x560f2b35c634 <unknown>
+#5 0x560f2b3597d0 <unknown>
+#6 0x560f2b30455f <unknown>
+#7 0x560f2b305321 <unknown>
+#8 0x560f2b88606b <unknown>
+#9 0x560f2b88901d <unknown>
+#10 0x560f2b872718 <unknown>
+#11 0x560f2b889bb0 <unknown>
+#12 0x560f2b859150 <unknown>
+#13 0x560f2b8af5e8 <unknown>
+#14 0x560f2b8af7b8 <unknown>
+#15 0x560f2b8c11de <unknown>
+#16 0x7fc81449caa4 <unknown>
+#17 0x7fc814529c6c <unknown>
+
+2026-05-09 10:42:36,312 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:42:41,392 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:42:41,393 - INFO - ====== WebDriver manager ======
+2026-05-09 10:42:41,458 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:42:41,485 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:42:41,512 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:42:51,077 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:42:56,226 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:42:56,227 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:42:56,229 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 10:42:56,303 - INFO - ============================================================
+2026-05-09 10:42:56,303 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 10:42:56,496 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 10:42:57,895 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 10:43:05,903 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:43:05,903 - INFO - ====== WebDriver manager ======
+2026-05-09 10:43:05,968 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:43:06,001 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:43:06,027 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:43:15,139 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:43:20,288 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:43:20,289 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:43:28,740 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:43:33,879 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:43:33,880 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:43:50,569 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5646c4f0479a <unknown>
+#1 0x5646c4900215 <unknown>
+#2 0x5646c4952f06 <unknown>
+#3 0x5646c4953141 <unknown>
+#4 0x5646c499e634 <unknown>
+#5 0x5646c499b7d0 <unknown>
+#6 0x5646c494655f <unknown>
+#7 0x5646c4947321 <unknown>
+#8 0x5646c4ec806b <unknown>
+#9 0x5646c4ecb01d <unknown>
+#10 0x5646c4eb4718 <unknown>
+#11 0x5646c4ecbbb0 <unknown>
+#12 0x5646c4e9b150 <unknown>
+#13 0x5646c4ef15e8 <unknown>
+#14 0x5646c4ef17b8 <unknown>
+#15 0x5646c4f031de <unknown>
+#16 0x7fbdc029caa4 <unknown>
+#17 0x7fbdc0329c6c <unknown>
+
+2026-05-09 10:43:50,570 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:43:55,652 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:43:55,652 - INFO - ====== WebDriver manager ======
+2026-05-09 10:43:55,717 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:43:55,745 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:43:55,774 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:44:06,577 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:44:11,725 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:44:11,726 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:44:28,530 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x555d224c679a <unknown>
+#1 0x555d21ec2215 <unknown>
+#2 0x555d21f14f06 <unknown>
+#3 0x555d21f15141 <unknown>
+#4 0x555d21f60634 <unknown>
+#5 0x555d21f5d7d0 <unknown>
+#6 0x555d21f0855f <unknown>
+#7 0x555d21f09321 <unknown>
+#8 0x555d2248a06b <unknown>
+#9 0x555d2248d01d <unknown>
+#10 0x555d22476718 <unknown>
+#11 0x555d2248dbb0 <unknown>
+#12 0x555d2245d150 <unknown>
+#13 0x555d224b35e8 <unknown>
+#14 0x555d224b37b8 <unknown>
+#15 0x555d224c51de <unknown>
+#16 0x7f093069caa4 <unknown>
+#17 0x7f0930729c6c <unknown>
+
+2026-05-09 10:44:28,530 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:44:33,610 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:44:33,611 - INFO - ====== WebDriver manager ======
+2026-05-09 10:44:33,676 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:44:33,704 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:44:33,731 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:44:42,589 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:44:47,738 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:44:47,739 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:45:03,972 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55b7922ec79a <unknown>
+#1 0x55b791ce8215 <unknown>
+#2 0x55b791d3af06 <unknown>
+#3 0x55b791d3b141 <unknown>
+#4 0x55b791d86634 <unknown>
+#5 0x55b791d837d0 <unknown>
+#6 0x55b791d2e55f <unknown>
+#7 0x55b791d2f321 <unknown>
+#8 0x55b7922b006b <unknown>
+#9 0x55b7922b301d <unknown>
+#10 0x55b79229c718 <unknown>
+#11 0x55b7922b3bb0 <unknown>
+#12 0x55b792283150 <unknown>
+#13 0x55b7922d95e8 <unknown>
+#14 0x55b7922d97b8 <unknown>
+#15 0x55b7922eb1de <unknown>
+#16 0x7f4af909caa4 <unknown>
+#17 0x7f4af9129c6c <unknown>
+
+2026-05-09 10:45:03,972 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:45:09,053 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:45:09,053 - INFO - ====== WebDriver manager ======
+2026-05-09 10:45:09,118 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:45:09,149 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:45:09,175 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:45:18,867 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:45:24,016 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:45:24,018 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:45:31,512 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:45:36,648 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:45:36,649 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:45:45,293 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:45:50,434 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:45:50,435 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:45:58,046 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:46:03,187 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:46:03,188 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:46:19,114 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x563a48a5479a <unknown>
+#1 0x563a48450215 <unknown>
+#2 0x563a484a2f06 <unknown>
+#3 0x563a484a3141 <unknown>
+#4 0x563a484ee634 <unknown>
+#5 0x563a484eb7d0 <unknown>
+#6 0x563a4849655f <unknown>
+#7 0x563a48497321 <unknown>
+#8 0x563a48a1806b <unknown>
+#9 0x563a48a1b01d <unknown>
+#10 0x563a48a04718 <unknown>
+#11 0x563a48a1bbb0 <unknown>
+#12 0x563a489eb150 <unknown>
+#13 0x563a48a415e8 <unknown>
+#14 0x563a48a417b8 <unknown>
+#15 0x563a48a531de <unknown>
+#16 0x7fa66e89caa4 <unknown>
+#17 0x7fa66e929c6c <unknown>
+
+2026-05-09 10:46:19,114 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:46:24,210 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:46:24,211 - INFO - ====== WebDriver manager ======
+2026-05-09 10:46:24,276 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:46:24,316 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:46:24,342 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:46:34,094 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:46:39,254 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:46:39,255 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:46:48,124 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:46:53,253 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:46:53,254 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:47:02,324 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:47:07,473 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:47:07,474 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:47:15,786 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:47:20,933 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:47:20,934 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:47:38,702 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55b60d22879a <unknown>
+#1 0x55b60cc24215 <unknown>
+#2 0x55b60cc76f06 <unknown>
+#3 0x55b60cc77141 <unknown>
+#4 0x55b60ccc2634 <unknown>
+#5 0x55b60ccbf7d0 <unknown>
+#6 0x55b60cc6a55f <unknown>
+#7 0x55b60cc6b321 <unknown>
+#8 0x55b60d1ec06b <unknown>
+#9 0x55b60d1ef01d <unknown>
+#10 0x55b60d1d8718 <unknown>
+#11 0x55b60d1efbb0 <unknown>
+#12 0x55b60d1bf150 <unknown>
+#13 0x55b60d2155e8 <unknown>
+#14 0x55b60d2157b8 <unknown>
+#15 0x55b60d2271de <unknown>
+#16 0x7fc87169caa4 <unknown>
+#17 0x7fc871729c6c <unknown>
+
+2026-05-09 10:47:38,702 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:47:43,784 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:47:43,785 - INFO - ====== WebDriver manager ======
+2026-05-09 10:47:43,850 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:47:43,879 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:47:43,908 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:47:54,744 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:47:59,903 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:47:59,904 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:48:16,118 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56329f68879a <unknown>
+#1 0x56329f084215 <unknown>
+#2 0x56329f0d6f06 <unknown>
+#3 0x56329f0d7141 <unknown>
+#4 0x56329f122634 <unknown>
+#5 0x56329f11f7d0 <unknown>
+#6 0x56329f0ca55f <unknown>
+#7 0x56329f0cb321 <unknown>
+#8 0x56329f64c06b <unknown>
+#9 0x56329f64f01d <unknown>
+#10 0x56329f638718 <unknown>
+#11 0x56329f64fbb0 <unknown>
+#12 0x56329f61f150 <unknown>
+#13 0x56329f6755e8 <unknown>
+#14 0x56329f6757b8 <unknown>
+#15 0x56329f6871de <unknown>
+#16 0x7f3c1ec9caa4 <unknown>
+#17 0x7f3c1ed29c6c <unknown>
+
+2026-05-09 10:48:16,118 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:48:21,200 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:48:21,200 - INFO - ====== WebDriver manager ======
+2026-05-09 10:48:21,268 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:48:21,298 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:48:21,329 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:48:31,404 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:48:36,551 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:48:36,552 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:48:54,036 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55881c03579a <unknown>
+#1 0x55881ba31215 <unknown>
+#2 0x55881ba83f06 <unknown>
+#3 0x55881ba84141 <unknown>
+#4 0x55881bacf634 <unknown>
+#5 0x55881bacc7d0 <unknown>
+#6 0x55881ba7755f <unknown>
+#7 0x55881ba78321 <unknown>
+#8 0x55881bff906b <unknown>
+#9 0x55881bffc01d <unknown>
+#10 0x55881bfe5718 <unknown>
+#11 0x55881bffcbb0 <unknown>
+#12 0x55881bfcc150 <unknown>
+#13 0x55881c0225e8 <unknown>
+#14 0x55881c0227b8 <unknown>
+#15 0x55881c0341de <unknown>
+#16 0x7f294b89caa4 <unknown>
+#17 0x7f294b929c6c <unknown>
+
+2026-05-09 10:48:54,036 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:48:59,115 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:48:59,115 - INFO - ====== WebDriver manager ======
+2026-05-09 10:48:59,181 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:48:59,212 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:48:59,242 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:49:09,984 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:49:15,148 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:49:15,149 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:49:24,334 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:49:29,467 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:49:29,468 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:49:37,072 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:49:42,210 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:49:42,211 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:49:49,915 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:49:55,061 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:49:55,063 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:50:11,269 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x562b17c9a79a <unknown>
+#1 0x562b17696215 <unknown>
+#2 0x562b176e8f06 <unknown>
+#3 0x562b176e9141 <unknown>
+#4 0x562b17734634 <unknown>
+#5 0x562b177317d0 <unknown>
+#6 0x562b176dc55f <unknown>
+#7 0x562b176dd321 <unknown>
+#8 0x562b17c5e06b <unknown>
+#9 0x562b17c6101d <unknown>
+#10 0x562b17c4a718 <unknown>
+#11 0x562b17c61bb0 <unknown>
+#12 0x562b17c31150 <unknown>
+#13 0x562b17c875e8 <unknown>
+#14 0x562b17c877b8 <unknown>
+#15 0x562b17c991de <unknown>
+#16 0x7f7c88a9caa4 <unknown>
+#17 0x7f7c88b29c6c <unknown>
+
+2026-05-09 10:50:11,269 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:50:16,366 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:50:16,366 - INFO - ====== WebDriver manager ======
+2026-05-09 10:50:16,434 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:50:16,461 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:50:16,490 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:50:26,950 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:50:32,095 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:50:32,096 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:50:49,036 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x555dd986579a <unknown>
+#1 0x555dd9261215 <unknown>
+#2 0x555dd92b3f06 <unknown>
+#3 0x555dd92b4141 <unknown>
+#4 0x555dd92ff634 <unknown>
+#5 0x555dd92fc7d0 <unknown>
+#6 0x555dd92a755f <unknown>
+#7 0x555dd92a8321 <unknown>
+#8 0x555dd982906b <unknown>
+#9 0x555dd982c01d <unknown>
+#10 0x555dd9815718 <unknown>
+#11 0x555dd982cbb0 <unknown>
+#12 0x555dd97fc150 <unknown>
+#13 0x555dd98525e8 <unknown>
+#14 0x555dd98527b8 <unknown>
+#15 0x555dd98641de <unknown>
+#16 0x7f6d41c9caa4 <unknown>
+#17 0x7f6d41d29c6c <unknown>
+
+2026-05-09 10:50:49,036 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:50:54,116 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:50:54,116 - INFO - ====== WebDriver manager ======
+2026-05-09 10:50:54,181 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:50:54,209 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:50:54,239 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:51:04,646 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:51:09,796 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:51:09,797 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:51:09,799 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 10:51:09,873 - INFO - ============================================================
+2026-05-09 10:51:09,873 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 10:51:10,068 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 10:51:11,380 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 10:51:19,388 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:51:19,388 - INFO - ====== WebDriver manager ======
+2026-05-09 10:51:19,455 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:51:19,484 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:51:19,512 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:51:29,445 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:51:34,595 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:51:34,597 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:51:51,717 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x561c9e01579a <unknown>
+#1 0x561c9da11215 <unknown>
+#2 0x561c9da63f06 <unknown>
+#3 0x561c9da64141 <unknown>
+#4 0x561c9daaf634 <unknown>
+#5 0x561c9daac7d0 <unknown>
+#6 0x561c9da5755f <unknown>
+#7 0x561c9da58321 <unknown>
+#8 0x561c9dfd906b <unknown>
+#9 0x561c9dfdc01d <unknown>
+#10 0x561c9dfc5718 <unknown>
+#11 0x561c9dfdcbb0 <unknown>
+#12 0x561c9dfac150 <unknown>
+#13 0x561c9e0025e8 <unknown>
+#14 0x561c9e0027b8 <unknown>
+#15 0x561c9e0141de <unknown>
+#16 0x7f9f41a9caa4 <unknown>
+#17 0x7f9f41b29c6c <unknown>
+
+2026-05-09 10:51:51,717 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:51:56,798 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:51:56,798 - INFO - ====== WebDriver manager ======
+2026-05-09 10:51:56,864 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:51:56,893 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:51:56,922 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:52:14,987 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55995efbf79a <unknown>
+#1 0x55995e9bb215 <unknown>
+#2 0x55995ea0df06 <unknown>
+#3 0x55995ea0e141 <unknown>
+#4 0x55995ea59634 <unknown>
+#5 0x55995ea567d0 <unknown>
+#6 0x55995ea0155f <unknown>
+#7 0x55995ea02321 <unknown>
+#8 0x55995ef8306b <unknown>
+#9 0x55995ef8601d <unknown>
+#10 0x55995ef6f718 <unknown>
+#11 0x55995ef86bb0 <unknown>
+#12 0x55995ef56150 <unknown>
+#13 0x55995efac5e8 <unknown>
+#14 0x55995efac7b8 <unknown>
+#15 0x55995efbe1de <unknown>
+#16 0x7fa1a049caa4 <unknown>
+#17 0x7fa1a0529c6c <unknown>
+
+2026-05-09 10:52:14,987 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (2/3)
+2026-05-09 10:52:25,070 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:52:25,070 - INFO - ====== WebDriver manager ======
+2026-05-09 10:52:25,137 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:52:25,165 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:52:25,193 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:52:34,300 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:52:39,455 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:52:39,456 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:52:47,316 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:52:52,451 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:52:52,452 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:52:59,542 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:53:04,688 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:53:04,689 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:53:12,758 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:53:17,898 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:53:17,900 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:53:33,948 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55b2bce0979a <unknown>
+#1 0x55b2bc805215 <unknown>
+#2 0x55b2bc857f06 <unknown>
+#3 0x55b2bc858141 <unknown>
+#4 0x55b2bc8a3634 <unknown>
+#5 0x55b2bc8a07d0 <unknown>
+#6 0x55b2bc84b55f <unknown>
+#7 0x55b2bc84c321 <unknown>
+#8 0x55b2bcdcd06b <unknown>
+#9 0x55b2bcdd001d <unknown>
+#10 0x55b2bcdb9718 <unknown>
+#11 0x55b2bcdd0bb0 <unknown>
+#12 0x55b2bcda0150 <unknown>
+#13 0x55b2bcdf65e8 <unknown>
+#14 0x55b2bcdf67b8 <unknown>
+#15 0x55b2bce081de <unknown>
+#16 0x7f92c989caa4 <unknown>
+#17 0x7f92c9929c6c <unknown>
+
+2026-05-09 10:53:33,948 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:53:39,043 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:53:39,044 - INFO - ====== WebDriver manager ======
+2026-05-09 10:53:39,109 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:53:39,136 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:53:39,166 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:53:49,247 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:53:54,399 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:53:54,401 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:54:02,158 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:54:07,297 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:54:07,298 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:54:24,252 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55dbf822a79a <unknown>
+#1 0x55dbf7c26215 <unknown>
+#2 0x55dbf7c78f06 <unknown>
+#3 0x55dbf7c79141 <unknown>
+#4 0x55dbf7cc4634 <unknown>
+#5 0x55dbf7cc17d0 <unknown>
+#6 0x55dbf7c6c55f <unknown>
+#7 0x55dbf7c6d321 <unknown>
+#8 0x55dbf81ee06b <unknown>
+#9 0x55dbf81f101d <unknown>
+#10 0x55dbf81da718 <unknown>
+#11 0x55dbf81f1bb0 <unknown>
+#12 0x55dbf81c1150 <unknown>
+#13 0x55dbf82175e8 <unknown>
+#14 0x55dbf82177b8 <unknown>
+#15 0x55dbf82291de <unknown>
+#16 0x7f488069caa4 <unknown>
+#17 0x7f4880729c6c <unknown>
+
+2026-05-09 10:54:24,252 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:54:29,335 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:54:29,335 - INFO - ====== WebDriver manager ======
+2026-05-09 10:54:29,401 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:54:29,430 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:54:29,456 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:54:38,653 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:54:43,806 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:54:43,807 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:55:00,975 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5620e98cc79a <unknown>
+#1 0x5620e92c8215 <unknown>
+#2 0x5620e931af06 <unknown>
+#3 0x5620e931b141 <unknown>
+#4 0x5620e9366634 <unknown>
+#5 0x5620e93637d0 <unknown>
+#6 0x5620e930e55f <unknown>
+#7 0x5620e930f321 <unknown>
+#8 0x5620e989006b <unknown>
+#9 0x5620e989301d <unknown>
+#10 0x5620e987c718 <unknown>
+#11 0x5620e9893bb0 <unknown>
+#12 0x5620e9863150 <unknown>
+#13 0x5620e98b95e8 <unknown>
+#14 0x5620e98b97b8 <unknown>
+#15 0x5620e98cb1de <unknown>
+#16 0x7f610ca9caa4 <unknown>
+#17 0x7f610cb29c6c <unknown>
+
+2026-05-09 10:55:00,975 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:55:06,057 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:55:06,057 - INFO - ====== WebDriver manager ======
+2026-05-09 10:55:06,122 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:55:06,149 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:55:06,176 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:55:15,538 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:55:20,691 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:55:20,692 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:55:36,782 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55e7f256279a <unknown>
+#1 0x55e7f1f5e215 <unknown>
+#2 0x55e7f1fb0f06 <unknown>
+#3 0x55e7f1fb1141 <unknown>
+#4 0x55e7f1ffc634 <unknown>
+#5 0x55e7f1ff97d0 <unknown>
+#6 0x55e7f1fa455f <unknown>
+#7 0x55e7f1fa5321 <unknown>
+#8 0x55e7f252606b <unknown>
+#9 0x55e7f252901d <unknown>
+#10 0x55e7f2512718 <unknown>
+#11 0x55e7f2529bb0 <unknown>
+#12 0x55e7f24f9150 <unknown>
+#13 0x55e7f254f5e8 <unknown>
+#14 0x55e7f254f7b8 <unknown>
+#15 0x55e7f25611de <unknown>
+#16 0x7f1b5c69caa4 <unknown>
+#17 0x7f1b5c729c6c <unknown>
+
+2026-05-09 10:55:36,782 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:55:41,863 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:55:41,864 - INFO - ====== WebDriver manager ======
+2026-05-09 10:55:41,929 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:55:41,956 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:55:41,984 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:55:51,586 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:55:56,733 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:55:56,734 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:56:12,941 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56381ba5f79a <unknown>
+#1 0x56381b45b215 <unknown>
+#2 0x56381b4adf06 <unknown>
+#3 0x56381b4ae141 <unknown>
+#4 0x56381b4f9634 <unknown>
+#5 0x56381b4f67d0 <unknown>
+#6 0x56381b4a155f <unknown>
+#7 0x56381b4a2321 <unknown>
+#8 0x56381ba2306b <unknown>
+#9 0x56381ba2601d <unknown>
+#10 0x56381ba0f718 <unknown>
+#11 0x56381ba26bb0 <unknown>
+#12 0x56381b9f6150 <unknown>
+#13 0x56381ba4c5e8 <unknown>
+#14 0x56381ba4c7b8 <unknown>
+#15 0x56381ba5e1de <unknown>
+#16 0x7efff4e9caa4 <unknown>
+#17 0x7efff4f29c6c <unknown>
+
+2026-05-09 10:56:12,941 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:56:18,022 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:56:18,023 - INFO - ====== WebDriver manager ======
+2026-05-09 10:56:18,089 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:56:18,120 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:56:18,147 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:56:28,620 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:56:33,774 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:56:33,775 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:56:50,327 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5627c066979a <unknown>
+#1 0x5627c0065215 <unknown>
+#2 0x5627c00b7f06 <unknown>
+#3 0x5627c00b8141 <unknown>
+#4 0x5627c0103634 <unknown>
+#5 0x5627c01007d0 <unknown>
+#6 0x5627c00ab55f <unknown>
+#7 0x5627c00ac321 <unknown>
+#8 0x5627c062d06b <unknown>
+#9 0x5627c063001d <unknown>
+#10 0x5627c0619718 <unknown>
+#11 0x5627c0630bb0 <unknown>
+#12 0x5627c0600150 <unknown>
+#13 0x5627c06565e8 <unknown>
+#14 0x5627c06567b8 <unknown>
+#15 0x5627c06681de <unknown>
+#16 0x7f329a89caa4 <unknown>
+#17 0x7f329a929c6c <unknown>
+
+2026-05-09 10:56:50,327 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:56:55,407 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:56:55,407 - INFO - ====== WebDriver manager ======
+2026-05-09 10:56:55,473 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:56:55,501 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:56:55,527 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:57:05,606 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:57:10,753 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:57:10,754 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:57:27,250 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55587623479a <unknown>
+#1 0x555875c30215 <unknown>
+#2 0x555875c82f06 <unknown>
+#3 0x555875c83141 <unknown>
+#4 0x555875cce634 <unknown>
+#5 0x555875ccb7d0 <unknown>
+#6 0x555875c7655f <unknown>
+#7 0x555875c77321 <unknown>
+#8 0x5558761f806b <unknown>
+#9 0x5558761fb01d <unknown>
+#10 0x5558761e4718 <unknown>
+#11 0x5558761fbbb0 <unknown>
+#12 0x5558761cb150 <unknown>
+#13 0x5558762215e8 <unknown>
+#14 0x5558762217b8 <unknown>
+#15 0x5558762331de <unknown>
+#16 0x7f9f0c89caa4 <unknown>
+#17 0x7f9f0c929c6c <unknown>
+
+2026-05-09 10:57:27,250 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:57:32,331 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:57:32,331 - INFO - ====== WebDriver manager ======
+2026-05-09 10:57:32,396 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:57:32,423 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:57:32,450 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:57:43,736 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:57:48,893 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:57:48,894 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:58:05,191 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x562bd540679a <unknown>
+#1 0x562bd4e02215 <unknown>
+#2 0x562bd4e54f06 <unknown>
+#3 0x562bd4e55141 <unknown>
+#4 0x562bd4ea0634 <unknown>
+#5 0x562bd4e9d7d0 <unknown>
+#6 0x562bd4e4855f <unknown>
+#7 0x562bd4e49321 <unknown>
+#8 0x562bd53ca06b <unknown>
+#9 0x562bd53cd01d <unknown>
+#10 0x562bd53b6718 <unknown>
+#11 0x562bd53cdbb0 <unknown>
+#12 0x562bd539d150 <unknown>
+#13 0x562bd53f35e8 <unknown>
+#14 0x562bd53f37b8 <unknown>
+#15 0x562bd54051de <unknown>
+#16 0x7fe9c529caa4 <unknown>
+#17 0x7fe9c5329c6c <unknown>
+
+2026-05-09 10:58:05,191 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:58:10,271 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:58:10,271 - INFO - ====== WebDriver manager ======
+2026-05-09 10:58:10,336 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:58:10,364 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:58:10,395 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:58:20,696 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:58:25,848 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:58:25,849 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:58:43,102 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x561ce43bf79a <unknown>
+#1 0x561ce3dbb215 <unknown>
+#2 0x561ce3e0df06 <unknown>
+#3 0x561ce3e0e141 <unknown>
+#4 0x561ce3e59634 <unknown>
+#5 0x561ce3e567d0 <unknown>
+#6 0x561ce3e0155f <unknown>
+#7 0x561ce3e02321 <unknown>
+#8 0x561ce438306b <unknown>
+#9 0x561ce438601d <unknown>
+#10 0x561ce436f718 <unknown>
+#11 0x561ce4386bb0 <unknown>
+#12 0x561ce4356150 <unknown>
+#13 0x561ce43ac5e8 <unknown>
+#14 0x561ce43ac7b8 <unknown>
+#15 0x561ce43be1de <unknown>
+#16 0x7ff94469caa4 <unknown>
+#17 0x7ff944729c6c <unknown>
+
+2026-05-09 10:58:43,102 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:58:48,184 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:58:48,184 - INFO - ====== WebDriver manager ======
+2026-05-09 10:58:48,249 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:58:48,277 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:58:48,304 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:58:58,521 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:59:03,665 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:59:03,667 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:59:19,770 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55b0069d479a <unknown>
+#1 0x55b0063d0215 <unknown>
+#2 0x55b006422f06 <unknown>
+#3 0x55b006423141 <unknown>
+#4 0x55b00646e634 <unknown>
+#5 0x55b00646b7d0 <unknown>
+#6 0x55b00641655f <unknown>
+#7 0x55b006417321 <unknown>
+#8 0x55b00699806b <unknown>
+#9 0x55b00699b01d <unknown>
+#10 0x55b006984718 <unknown>
+#11 0x55b00699bbb0 <unknown>
+#12 0x55b00696b150 <unknown>
+#13 0x55b0069c15e8 <unknown>
+#14 0x55b0069c17b8 <unknown>
+#15 0x55b0069d31de <unknown>
+#16 0x7f8c98a9caa4 <unknown>
+#17 0x7f8c98b29c6c <unknown>
+
+2026-05-09 10:59:19,770 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 10:59:24,852 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 10:59:24,852 - INFO - ====== WebDriver manager ======
+2026-05-09 10:59:24,917 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:59:24,946 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 10:59:24,972 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 10:59:35,333 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:59:40,487 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:59:40,489 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 10:59:49,051 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 10:59:54,182 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 10:59:54,183 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:00:11,587 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x560fea49d79a <unknown>
+#1 0x560fe9e99215 <unknown>
+#2 0x560fe9eebf06 <unknown>
+#3 0x560fe9eec141 <unknown>
+#4 0x560fe9f37634 <unknown>
+#5 0x560fe9f347d0 <unknown>
+#6 0x560fe9edf55f <unknown>
+#7 0x560fe9ee0321 <unknown>
+#8 0x560fea46106b <unknown>
+#9 0x560fea46401d <unknown>
+#10 0x560fea44d718 <unknown>
+#11 0x560fea464bb0 <unknown>
+#12 0x560fea434150 <unknown>
+#13 0x560fea48a5e8 <unknown>
+#14 0x560fea48a7b8 <unknown>
+#15 0x560fea49c1de <unknown>
+#16 0x7fb94a69caa4 <unknown>
+#17 0x7fb94a729c6c <unknown>
+
+2026-05-09 11:00:11,588 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:00:16,671 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:00:16,671 - INFO - ====== WebDriver manager ======
+2026-05-09 11:00:16,737 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:00:16,766 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:00:16,795 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:00:26,203 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:00:31,357 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:00:31,358 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:00:39,502 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:00:44,636 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:00:44,637 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:00:52,975 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:00:58,116 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:00:58,117 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:00:58,119 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 11:00:58,196 - INFO - ============================================================
+2026-05-09 11:00:58,197 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 11:00:58,390 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 11:00:59,789 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 11:01:07,797 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:01:07,798 - INFO - ====== WebDriver manager ======
+2026-05-09 11:01:07,863 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:01:07,892 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:01:07,922 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:01:17,930 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:01:23,082 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:01:23,083 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:01:31,905 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:01:37,038 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:01:37,039 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:01:53,987 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55f4fd01e79a <unknown>
+#1 0x55f4fca1a215 <unknown>
+#2 0x55f4fca6cf06 <unknown>
+#3 0x55f4fca6d141 <unknown>
+#4 0x55f4fcab8634 <unknown>
+#5 0x55f4fcab57d0 <unknown>
+#6 0x55f4fca6055f <unknown>
+#7 0x55f4fca61321 <unknown>
+#8 0x55f4fcfe206b <unknown>
+#9 0x55f4fcfe501d <unknown>
+#10 0x55f4fcfce718 <unknown>
+#11 0x55f4fcfe5bb0 <unknown>
+#12 0x55f4fcfb5150 <unknown>
+#13 0x55f4fd00b5e8 <unknown>
+#14 0x55f4fd00b7b8 <unknown>
+#15 0x55f4fd01d1de <unknown>
+#16 0x7fece8e9caa4 <unknown>
+#17 0x7fece8f29c6c <unknown>
+
+2026-05-09 11:01:53,987 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:01:59,070 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:01:59,070 - INFO - ====== WebDriver manager ======
+2026-05-09 11:01:59,137 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:01:59,166 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:01:59,194 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:02:07,928 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:02:13,080 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:02:13,081 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:02:21,309 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:02:26,448 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:02:26,449 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:02:34,665 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:02:39,797 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:02:39,798 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:02:56,320 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56434985579a <unknown>
+#1 0x564349251215 <unknown>
+#2 0x5643492a3f06 <unknown>
+#3 0x5643492a4141 <unknown>
+#4 0x5643492ef634 <unknown>
+#5 0x5643492ec7d0 <unknown>
+#6 0x56434929755f <unknown>
+#7 0x564349298321 <unknown>
+#8 0x56434981906b <unknown>
+#9 0x56434981c01d <unknown>
+#10 0x564349805718 <unknown>
+#11 0x56434981cbb0 <unknown>
+#12 0x5643497ec150 <unknown>
+#13 0x5643498425e8 <unknown>
+#14 0x5643498427b8 <unknown>
+#15 0x5643498541de <unknown>
+#16 0x7fb83f89caa4 <unknown>
+#17 0x7fb83f929c6c <unknown>
+
+2026-05-09 11:02:56,321 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:03:01,403 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:03:01,403 - INFO - ====== WebDriver manager ======
+2026-05-09 11:03:01,468 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:03:01,496 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:03:01,523 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:03:10,580 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:03:15,731 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:03:15,732 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:03:32,330 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x563d6648d79a <unknown>
+#1 0x563d65e89215 <unknown>
+#2 0x563d65edbf06 <unknown>
+#3 0x563d65edc141 <unknown>
+#4 0x563d65f27634 <unknown>
+#5 0x563d65f247d0 <unknown>
+#6 0x563d65ecf55f <unknown>
+#7 0x563d65ed0321 <unknown>
+#8 0x563d6645106b <unknown>
+#9 0x563d6645401d <unknown>
+#10 0x563d6643d718 <unknown>
+#11 0x563d66454bb0 <unknown>
+#12 0x563d66424150 <unknown>
+#13 0x563d6647a5e8 <unknown>
+#14 0x563d6647a7b8 <unknown>
+#15 0x563d6648c1de <unknown>
+#16 0x7f7fdf49caa4 <unknown>
+#17 0x7f7fdf529c6c <unknown>
+
+2026-05-09 11:03:32,330 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:03:37,410 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:03:37,410 - INFO - ====== WebDriver manager ======
+2026-05-09 11:03:37,476 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:03:37,503 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:03:37,529 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:03:47,104 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:03:52,256 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:03:52,257 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:03:59,633 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:04:04,768 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:04:04,769 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:04:22,207 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x555dd60e079a <unknown>
+#1 0x555dd5adc215 <unknown>
+#2 0x555dd5b2ef06 <unknown>
+#3 0x555dd5b2f141 <unknown>
+#4 0x555dd5b7a634 <unknown>
+#5 0x555dd5b777d0 <unknown>
+#6 0x555dd5b2255f <unknown>
+#7 0x555dd5b23321 <unknown>
+#8 0x555dd60a406b <unknown>
+#9 0x555dd60a701d <unknown>
+#10 0x555dd6090718 <unknown>
+#11 0x555dd60a7bb0 <unknown>
+#12 0x555dd6077150 <unknown>
+#13 0x555dd60cd5e8 <unknown>
+#14 0x555dd60cd7b8 <unknown>
+#15 0x555dd60df1de <unknown>
+#16 0x7f31dc49caa4 <unknown>
+#17 0x7f31dc529c6c <unknown>
+
+2026-05-09 11:04:22,207 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:04:27,286 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:04:27,287 - INFO - ====== WebDriver manager ======
+2026-05-09 11:04:27,354 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:04:27,383 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:04:27,412 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:04:38,744 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:04:43,898 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:04:43,899 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:05:00,014 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55e71657b79a <unknown>
+#1 0x55e715f77215 <unknown>
+#2 0x55e715fc9f06 <unknown>
+#3 0x55e715fca141 <unknown>
+#4 0x55e716015634 <unknown>
+#5 0x55e7160127d0 <unknown>
+#6 0x55e715fbd55f <unknown>
+#7 0x55e715fbe321 <unknown>
+#8 0x55e71653f06b <unknown>
+#9 0x55e71654201d <unknown>
+#10 0x55e71652b718 <unknown>
+#11 0x55e716542bb0 <unknown>
+#12 0x55e716512150 <unknown>
+#13 0x55e7165685e8 <unknown>
+#14 0x55e7165687b8 <unknown>
+#15 0x55e71657a1de <unknown>
+#16 0x7fbba5e9caa4 <unknown>
+#17 0x7fbba5f29c6c <unknown>
+
+2026-05-09 11:05:00,014 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:05:05,092 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:05:05,093 - INFO - ====== WebDriver manager ======
+2026-05-09 11:05:05,158 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:05:05,186 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:05:05,214 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:05:14,738 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:05:19,894 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:05:19,895 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:05:29,256 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:05:34,394 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:05:34,395 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:05:42,890 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:05:48,026 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:05:48,027 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:06:05,249 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ea859e879a <unknown>
+#1 0x55ea853e4215 <unknown>
+#2 0x55ea85436f06 <unknown>
+#3 0x55ea85437141 <unknown>
+#4 0x55ea85482634 <unknown>
+#5 0x55ea8547f7d0 <unknown>
+#6 0x55ea8542a55f <unknown>
+#7 0x55ea8542b321 <unknown>
+#8 0x55ea859ac06b <unknown>
+#9 0x55ea859af01d <unknown>
+#10 0x55ea85998718 <unknown>
+#11 0x55ea859afbb0 <unknown>
+#12 0x55ea8597f150 <unknown>
+#13 0x55ea859d55e8 <unknown>
+#14 0x55ea859d57b8 <unknown>
+#15 0x55ea859e71de <unknown>
+#16 0x7f0c97e9caa4 <unknown>
+#17 0x7f0c97f29c6c <unknown>
+
+2026-05-09 11:06:05,250 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:06:10,332 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:06:10,332 - INFO - ====== WebDriver manager ======
+2026-05-09 11:06:10,398 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:06:10,426 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:06:10,453 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:06:20,056 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:06:25,207 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:06:25,208 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:06:33,891 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:06:39,023 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:06:39,024 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:06:55,254 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x564627f3d79a <unknown>
+#1 0x564627939215 <unknown>
+#2 0x56462798bf06 <unknown>
+#3 0x56462798c141 <unknown>
+#4 0x5646279d7634 <unknown>
+#5 0x5646279d47d0 <unknown>
+#6 0x56462797f55f <unknown>
+#7 0x564627980321 <unknown>
+#8 0x564627f0106b <unknown>
+#9 0x564627f0401d <unknown>
+#10 0x564627eed718 <unknown>
+#11 0x564627f04bb0 <unknown>
+#12 0x564627ed4150 <unknown>
+#13 0x564627f2a5e8 <unknown>
+#14 0x564627f2a7b8 <unknown>
+#15 0x564627f3c1de <unknown>
+#16 0x7f59bce9caa4 <unknown>
+#17 0x7f59bcf29c6c <unknown>
+
+2026-05-09 11:06:55,254 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:07:00,336 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:07:00,337 - INFO - ====== WebDriver manager ======
+2026-05-09 11:07:00,403 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:07:00,432 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:07:00,458 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:07:11,103 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:07:16,257 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:07:16,258 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:07:25,046 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:07:30,185 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:07:30,186 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:07:37,823 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:07:42,961 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:07:42,962 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:07:59,162 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55e3d0f5079a <unknown>
+#1 0x55e3d094c215 <unknown>
+#2 0x55e3d099ef06 <unknown>
+#3 0x55e3d099f141 <unknown>
+#4 0x55e3d09ea634 <unknown>
+#5 0x55e3d09e77d0 <unknown>
+#6 0x55e3d099255f <unknown>
+#7 0x55e3d0993321 <unknown>
+#8 0x55e3d0f1406b <unknown>
+#9 0x55e3d0f1701d <unknown>
+#10 0x55e3d0f00718 <unknown>
+#11 0x55e3d0f17bb0 <unknown>
+#12 0x55e3d0ee7150 <unknown>
+#13 0x55e3d0f3d5e8 <unknown>
+#14 0x55e3d0f3d7b8 <unknown>
+#15 0x55e3d0f4f1de <unknown>
+#16 0x7fdde989caa4 <unknown>
+#17 0x7fdde9929c6c <unknown>
+
+2026-05-09 11:07:59,162 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:08:04,245 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:08:04,245 - INFO - ====== WebDriver manager ======
+2026-05-09 11:08:04,311 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:08:04,341 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:08:04,369 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:08:15,147 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:08:20,307 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:08:20,308 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:08:27,952 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:08:33,089 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:08:33,091 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:08:50,468 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55767f39e79a <unknown>
+#1 0x55767ed9a215 <unknown>
+#2 0x55767edecf06 <unknown>
+#3 0x55767eded141 <unknown>
+#4 0x55767ee38634 <unknown>
+#5 0x55767ee357d0 <unknown>
+#6 0x55767ede055f <unknown>
+#7 0x55767ede1321 <unknown>
+#8 0x55767f36206b <unknown>
+#9 0x55767f36501d <unknown>
+#10 0x55767f34e718 <unknown>
+#11 0x55767f365bb0 <unknown>
+#12 0x55767f335150 <unknown>
+#13 0x55767f38b5e8 <unknown>
+#14 0x55767f38b7b8 <unknown>
+#15 0x55767f39d1de <unknown>
+#16 0x7fc34869caa4 <unknown>
+#17 0x7fc348729c6c <unknown>
+
+2026-05-09 11:08:50,468 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:08:55,551 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:08:55,551 - INFO - ====== WebDriver manager ======
+2026-05-09 11:08:55,617 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:08:55,648 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:08:55,677 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:09:05,640 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:09:10,792 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:09:10,793 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:09:10,795 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 11:09:10,868 - INFO - ============================================================
+2026-05-09 11:09:10,869 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 11:09:11,062 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 11:09:12,460 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 11:09:20,469 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:09:20,469 - INFO - ====== WebDriver manager ======
+2026-05-09 11:09:20,536 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:09:20,564 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:09:20,593 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:09:30,910 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:09:36,068 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:09:36,069 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:09:44,178 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:09:49,320 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:09:49,321 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:09:57,117 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:10:02,260 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:10:02,261 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:10:11,235 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:10:16,368 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:10:16,369 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:10:34,143 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55e9ed56579a <unknown>
+#1 0x55e9ecf61215 <unknown>
+#2 0x55e9ecfb3f06 <unknown>
+#3 0x55e9ecfb4141 <unknown>
+#4 0x55e9ecfff634 <unknown>
+#5 0x55e9ecffc7d0 <unknown>
+#6 0x55e9ecfa755f <unknown>
+#7 0x55e9ecfa8321 <unknown>
+#8 0x55e9ed52906b <unknown>
+#9 0x55e9ed52c01d <unknown>
+#10 0x55e9ed515718 <unknown>
+#11 0x55e9ed52cbb0 <unknown>
+#12 0x55e9ed4fc150 <unknown>
+#13 0x55e9ed5525e8 <unknown>
+#14 0x55e9ed5527b8 <unknown>
+#15 0x55e9ed5641de <unknown>
+#16 0x7f08b669caa4 <unknown>
+#17 0x7f08b6729c6c <unknown>
+
+2026-05-09 11:10:34,143 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:10:39,238 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:10:39,238 - INFO - ====== WebDriver manager ======
+2026-05-09 11:10:39,304 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:10:39,331 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:10:39,360 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:10:49,438 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:10:54,597 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:10:54,598 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:11:12,191 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55f557f8379a <unknown>
+#1 0x55f55797f215 <unknown>
+#2 0x55f5579d1f06 <unknown>
+#3 0x55f5579d2141 <unknown>
+#4 0x55f557a1d634 <unknown>
+#5 0x55f557a1a7d0 <unknown>
+#6 0x55f5579c555f <unknown>
+#7 0x55f5579c6321 <unknown>
+#8 0x55f557f4706b <unknown>
+#9 0x55f557f4a01d <unknown>
+#10 0x55f557f33718 <unknown>
+#11 0x55f557f4abb0 <unknown>
+#12 0x55f557f1a150 <unknown>
+#13 0x55f557f705e8 <unknown>
+#14 0x55f557f707b8 <unknown>
+#15 0x55f557f821de <unknown>
+#16 0x7f63e169caa4 <unknown>
+#17 0x7f63e1729c6c <unknown>
+
+2026-05-09 11:11:12,191 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:11:17,268 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:11:17,269 - INFO - ====== WebDriver manager ======
+2026-05-09 11:11:17,336 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:11:17,365 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:11:17,392 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:11:27,639 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:11:32,790 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:11:32,792 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:11:50,438 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5579f047b79a <unknown>
+#1 0x5579efe77215 <unknown>
+#2 0x5579efec9f06 <unknown>
+#3 0x5579efeca141 <unknown>
+#4 0x5579eff15634 <unknown>
+#5 0x5579eff127d0 <unknown>
+#6 0x5579efebd55f <unknown>
+#7 0x5579efebe321 <unknown>
+#8 0x5579f043f06b <unknown>
+#9 0x5579f044201d <unknown>
+#10 0x5579f042b718 <unknown>
+#11 0x5579f0442bb0 <unknown>
+#12 0x5579f0412150 <unknown>
+#13 0x5579f04685e8 <unknown>
+#14 0x5579f04687b8 <unknown>
+#15 0x5579f047a1de <unknown>
+#16 0x7f6e9dc9caa4 <unknown>
+#17 0x7f6e9dd29c6c <unknown>
+
+2026-05-09 11:11:50,438 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:11:55,520 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:11:55,521 - INFO - ====== WebDriver manager ======
+2026-05-09 11:11:55,586 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:11:55,614 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:11:55,643 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:12:06,213 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:12:11,362 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:12:11,363 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:12:20,109 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:12:25,253 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:12:25,254 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:12:33,066 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:12:38,210 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:12:38,212 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:12:46,765 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:12:51,963 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:12:51,964 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:13:08,246 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x562012ede79a <unknown>
+#1 0x5620128da215 <unknown>
+#2 0x56201292cf06 <unknown>
+#3 0x56201292d141 <unknown>
+#4 0x562012978634 <unknown>
+#5 0x5620129757d0 <unknown>
+#6 0x56201292055f <unknown>
+#7 0x562012921321 <unknown>
+#8 0x562012ea206b <unknown>
+#9 0x562012ea501d <unknown>
+#10 0x562012e8e718 <unknown>
+#11 0x562012ea5bb0 <unknown>
+#12 0x562012e75150 <unknown>
+#13 0x562012ecb5e8 <unknown>
+#14 0x562012ecb7b8 <unknown>
+#15 0x562012edd1de <unknown>
+#16 0x7f1e8fe9caa4 <unknown>
+#17 0x7f1e8ff29c6c <unknown>
+
+2026-05-09 11:13:08,246 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:13:13,341 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:13:13,341 - INFO - ====== WebDriver manager ======
+2026-05-09 11:13:13,407 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:13:13,435 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:13:13,466 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:13:23,298 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:13:28,448 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:13:28,449 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:13:45,977 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55b09e64479a <unknown>
+#1 0x55b09e040215 <unknown>
+#2 0x55b09e092f06 <unknown>
+#3 0x55b09e093141 <unknown>
+#4 0x55b09e0de634 <unknown>
+#5 0x55b09e0db7d0 <unknown>
+#6 0x55b09e08655f <unknown>
+#7 0x55b09e087321 <unknown>
+#8 0x55b09e60806b <unknown>
+#9 0x55b09e60b01d <unknown>
+#10 0x55b09e5f4718 <unknown>
+#11 0x55b09e60bbb0 <unknown>
+#12 0x55b09e5db150 <unknown>
+#13 0x55b09e6315e8 <unknown>
+#14 0x55b09e6317b8 <unknown>
+#15 0x55b09e6431de <unknown>
+#16 0x7f715d29caa4 <unknown>
+#17 0x7f715d329c6c <unknown>
+
+2026-05-09 11:13:45,977 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:13:51,057 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:13:51,057 - INFO - ====== WebDriver manager ======
+2026-05-09 11:13:51,123 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:13:51,152 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:13:51,179 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:14:00,204 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:14:05,357 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:14:05,358 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:14:12,671 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:14:17,807 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:14:17,809 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:14:34,568 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5582fa1e579a <unknown>
+#1 0x5582f9be1215 <unknown>
+#2 0x5582f9c33f06 <unknown>
+#3 0x5582f9c34141 <unknown>
+#4 0x5582f9c7f634 <unknown>
+#5 0x5582f9c7c7d0 <unknown>
+#6 0x5582f9c2755f <unknown>
+#7 0x5582f9c28321 <unknown>
+#8 0x5582fa1a906b <unknown>
+#9 0x5582fa1ac01d <unknown>
+#10 0x5582fa195718 <unknown>
+#11 0x5582fa1acbb0 <unknown>
+#12 0x5582fa17c150 <unknown>
+#13 0x5582fa1d25e8 <unknown>
+#14 0x5582fa1d27b8 <unknown>
+#15 0x5582fa1e41de <unknown>
+#16 0x7f118969caa4 <unknown>
+#17 0x7f1189729c6c <unknown>
+
+2026-05-09 11:14:34,568 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:14:39,651 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:14:39,651 - INFO - ====== WebDriver manager ======
+2026-05-09 11:14:39,717 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:14:39,745 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:14:39,772 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:14:49,740 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:14:54,894 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:14:54,895 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:15:03,530 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:15:08,662 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:15:08,663 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:15:26,075 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55860dd7e79a <unknown>
+#1 0x55860d77a215 <unknown>
+#2 0x55860d7ccf06 <unknown>
+#3 0x55860d7cd141 <unknown>
+#4 0x55860d818634 <unknown>
+#5 0x55860d8157d0 <unknown>
+#6 0x55860d7c055f <unknown>
+#7 0x55860d7c1321 <unknown>
+#8 0x55860dd4206b <unknown>
+#9 0x55860dd4501d <unknown>
+#10 0x55860dd2e718 <unknown>
+#11 0x55860dd45bb0 <unknown>
+#12 0x55860dd15150 <unknown>
+#13 0x55860dd6b5e8 <unknown>
+#14 0x55860dd6b7b8 <unknown>
+#15 0x55860dd7d1de <unknown>
+#16 0x7fe7f4c9caa4 <unknown>
+#17 0x7fe7f4d29c6c <unknown>
+
+2026-05-09 11:15:26,075 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:15:31,157 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:15:31,157 - INFO - ====== WebDriver manager ======
+2026-05-09 11:15:31,223 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:15:31,249 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:15:31,278 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:15:41,067 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:15:46,221 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:15:46,222 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:15:55,370 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:16:00,502 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:16:00,503 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:16:08,785 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:16:13,920 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:16:13,921 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:16:31,677 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x565257afe79a <unknown>
+#1 0x5652574fa215 <unknown>
+#2 0x56525754cf06 <unknown>
+#3 0x56525754d141 <unknown>
+#4 0x565257598634 <unknown>
+#5 0x5652575957d0 <unknown>
+#6 0x56525754055f <unknown>
+#7 0x565257541321 <unknown>
+#8 0x565257ac206b <unknown>
+#9 0x565257ac501d <unknown>
+#10 0x565257aae718 <unknown>
+#11 0x565257ac5bb0 <unknown>
+#12 0x565257a95150 <unknown>
+#13 0x565257aeb5e8 <unknown>
+#14 0x565257aeb7b8 <unknown>
+#15 0x565257afd1de <unknown>
+#16 0x7faf4809caa4 <unknown>
+#17 0x7faf48129c6c <unknown>
+
+2026-05-09 11:16:31,677 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:16:36,760 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:16:36,761 - INFO - ====== WebDriver manager ======
+2026-05-09 11:16:36,827 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:16:36,857 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:16:36,885 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:16:46,265 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:16:51,412 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:16:51,413 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:16:58,824 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:17:03,958 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:17:03,959 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:17:03,961 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 11:17:04,037 - INFO - ============================================================
+2026-05-09 11:17:04,037 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 11:17:04,234 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 11:17:05,535 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 11:17:13,543 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:17:13,544 - INFO - ====== WebDriver manager ======
+2026-05-09 11:17:13,609 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:17:13,638 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:17:13,666 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:17:24,395 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:17:29,550 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:17:29,551 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:17:45,912 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x56490c39a79a <unknown>
+#1 0x56490bd96215 <unknown>
+#2 0x56490bde8f06 <unknown>
+#3 0x56490bde9141 <unknown>
+#4 0x56490be34634 <unknown>
+#5 0x56490be317d0 <unknown>
+#6 0x56490bddc55f <unknown>
+#7 0x56490bddd321 <unknown>
+#8 0x56490c35e06b <unknown>
+#9 0x56490c36101d <unknown>
+#10 0x56490c34a718 <unknown>
+#11 0x56490c361bb0 <unknown>
+#12 0x56490c331150 <unknown>
+#13 0x56490c3875e8 <unknown>
+#14 0x56490c3877b8 <unknown>
+#15 0x56490c3991de <unknown>
+#16 0x7f01eca9caa4 <unknown>
+#17 0x7f01ecb29c6c <unknown>
+
+2026-05-09 11:17:45,912 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:17:50,990 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:17:50,990 - INFO - ====== WebDriver manager ======
+2026-05-09 11:17:51,055 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:17:51,085 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:17:51,111 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:18:02,212 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:18:07,363 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:18:07,365 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:18:15,112 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:18:20,255 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:18:20,256 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:18:28,684 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:18:33,818 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:18:33,819 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:18:50,364 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5596b43f579a <unknown>
+#1 0x5596b3df1215 <unknown>
+#2 0x5596b3e43f06 <unknown>
+#3 0x5596b3e44141 <unknown>
+#4 0x5596b3e8f634 <unknown>
+#5 0x5596b3e8c7d0 <unknown>
+#6 0x5596b3e3755f <unknown>
+#7 0x5596b3e38321 <unknown>
+#8 0x5596b43b906b <unknown>
+#9 0x5596b43bc01d <unknown>
+#10 0x5596b43a5718 <unknown>
+#11 0x5596b43bcbb0 <unknown>
+#12 0x5596b438c150 <unknown>
+#13 0x5596b43e25e8 <unknown>
+#14 0x5596b43e27b8 <unknown>
+#15 0x5596b43f41de <unknown>
+#16 0x7fc85929caa4 <unknown>
+#17 0x7fc859329c6c <unknown>
+
+2026-05-09 11:18:50,364 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:18:55,446 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:18:55,447 - INFO - ====== WebDriver manager ======
+2026-05-09 11:18:55,512 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:18:55,542 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:18:55,571 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:19:06,337 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:19:11,495 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:19:11,496 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:19:20,695 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:19:25,832 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:19:25,833 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:19:41,974 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x558133d6879a <unknown>
+#1 0x558133764215 <unknown>
+#2 0x5581337b6f06 <unknown>
+#3 0x5581337b7141 <unknown>
+#4 0x558133802634 <unknown>
+#5 0x5581337ff7d0 <unknown>
+#6 0x5581337aa55f <unknown>
+#7 0x5581337ab321 <unknown>
+#8 0x558133d2c06b <unknown>
+#9 0x558133d2f01d <unknown>
+#10 0x558133d18718 <unknown>
+#11 0x558133d2fbb0 <unknown>
+#12 0x558133cff150 <unknown>
+#13 0x558133d555e8 <unknown>
+#14 0x558133d557b8 <unknown>
+#15 0x558133d671de <unknown>
+#16 0x7f11a249caa4 <unknown>
+#17 0x7f11a2529c6c <unknown>
+
+2026-05-09 11:19:41,974 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:19:47,057 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:19:47,057 - INFO - ====== WebDriver manager ======
+2026-05-09 11:19:47,123 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:19:47,152 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:19:47,178 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:19:57,246 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:20:02,400 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:20:02,401 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:20:11,369 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:20:16,502 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:20:16,503 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:20:24,492 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:20:29,629 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:20:29,630 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:20:37,296 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:20:42,431 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:20:42,432 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:20:50,073 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:20:55,216 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:20:55,217 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:21:03,437 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:21:08,572 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:21:08,573 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:21:16,639 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:21:21,783 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:21:21,784 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:21:38,846 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55d78bc9079a <unknown>
+#1 0x55d78b68c215 <unknown>
+#2 0x55d78b6def06 <unknown>
+#3 0x55d78b6df141 <unknown>
+#4 0x55d78b72a634 <unknown>
+#5 0x55d78b7277d0 <unknown>
+#6 0x55d78b6d255f <unknown>
+#7 0x55d78b6d3321 <unknown>
+#8 0x55d78bc5406b <unknown>
+#9 0x55d78bc5701d <unknown>
+#10 0x55d78bc40718 <unknown>
+#11 0x55d78bc57bb0 <unknown>
+#12 0x55d78bc27150 <unknown>
+#13 0x55d78bc7d5e8 <unknown>
+#14 0x55d78bc7d7b8 <unknown>
+#15 0x55d78bc8f1de <unknown>
+#16 0x7f6a1589caa4 <unknown>
+#17 0x7f6a15929c6c <unknown>
+
+2026-05-09 11:21:38,847 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:21:43,943 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:21:43,943 - INFO - ====== WebDriver manager ======
+2026-05-09 11:21:44,009 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:21:44,038 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:21:44,065 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:21:54,450 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:21:59,604 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:21:59,605 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:22:17,473 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55bd53eca79a <unknown>
+#1 0x55bd538c6215 <unknown>
+#2 0x55bd53918f06 <unknown>
+#3 0x55bd53919141 <unknown>
+#4 0x55bd53964634 <unknown>
+#5 0x55bd539617d0 <unknown>
+#6 0x55bd5390c55f <unknown>
+#7 0x55bd5390d321 <unknown>
+#8 0x55bd53e8e06b <unknown>
+#9 0x55bd53e9101d <unknown>
+#10 0x55bd53e7a718 <unknown>
+#11 0x55bd53e91bb0 <unknown>
+#12 0x55bd53e61150 <unknown>
+#13 0x55bd53eb75e8 <unknown>
+#14 0x55bd53eb77b8 <unknown>
+#15 0x55bd53ec91de <unknown>
+#16 0x7fa0bda9caa4 <unknown>
+#17 0x7fa0bdb29c6c <unknown>
+
+2026-05-09 11:22:17,474 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:22:22,553 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:22:22,554 - INFO - ====== WebDriver manager ======
+2026-05-09 11:22:22,620 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:22:22,650 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:22:22,677 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:22:32,500 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:22:37,658 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:22:37,659 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:22:55,362 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5628ef09579a <unknown>
+#1 0x5628eea91215 <unknown>
+#2 0x5628eeae3f06 <unknown>
+#3 0x5628eeae4141 <unknown>
+#4 0x5628eeb2f634 <unknown>
+#5 0x5628eeb2c7d0 <unknown>
+#6 0x5628eead755f <unknown>
+#7 0x5628eead8321 <unknown>
+#8 0x5628ef05906b <unknown>
+#9 0x5628ef05c01d <unknown>
+#10 0x5628ef045718 <unknown>
+#11 0x5628ef05cbb0 <unknown>
+#12 0x5628ef02c150 <unknown>
+#13 0x5628ef0825e8 <unknown>
+#14 0x5628ef0827b8 <unknown>
+#15 0x5628ef0941de <unknown>
+#16 0x7f9bc229caa4 <unknown>
+#17 0x7f9bc2329c6c <unknown>
+
+2026-05-09 11:22:55,362 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:23:00,438 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:23:00,438 - INFO - ====== WebDriver manager ======
+2026-05-09 11:23:00,504 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:23:00,533 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:23:00,560 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:23:09,450 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:23:14,607 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:23:14,608 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:23:31,887 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5568ed1b579a <unknown>
+#1 0x5568ecbb1215 <unknown>
+#2 0x5568ecc03f06 <unknown>
+#3 0x5568ecc04141 <unknown>
+#4 0x5568ecc4f634 <unknown>
+#5 0x5568ecc4c7d0 <unknown>
+#6 0x5568ecbf755f <unknown>
+#7 0x5568ecbf8321 <unknown>
+#8 0x5568ed17906b <unknown>
+#9 0x5568ed17c01d <unknown>
+#10 0x5568ed165718 <unknown>
+#11 0x5568ed17cbb0 <unknown>
+#12 0x5568ed14c150 <unknown>
+#13 0x5568ed1a25e8 <unknown>
+#14 0x5568ed1a27b8 <unknown>
+#15 0x5568ed1b41de <unknown>
+#16 0x7f428cc9caa4 <unknown>
+#17 0x7f428cd29c6c <unknown>
+
+2026-05-09 11:23:31,887 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:23:36,968 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:23:36,968 - INFO - ====== WebDriver manager ======
+2026-05-09 11:23:37,034 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:23:37,062 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:23:37,089 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:23:55,731 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x563254ce379a <unknown>
+#1 0x5632546df215 <unknown>
+#2 0x563254731f06 <unknown>
+#3 0x563254732141 <unknown>
+#4 0x56325477d634 <unknown>
+#5 0x56325477a7d0 <unknown>
+#6 0x56325472555f <unknown>
+#7 0x563254726321 <unknown>
+#8 0x563254ca706b <unknown>
+#9 0x563254caa01d <unknown>
+#10 0x563254c93718 <unknown>
+#11 0x563254caabb0 <unknown>
+#12 0x563254c7a150 <unknown>
+#13 0x563254cd05e8 <unknown>
+#14 0x563254cd07b8 <unknown>
+#15 0x563254ce21de <unknown>
+#16 0x7f224369caa4 <unknown>
+#17 0x7f2243729c6c <unknown>
+
+2026-05-09 11:23:55,732 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (2/3)
+2026-05-09 11:24:05,814 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:24:05,814 - INFO - ====== WebDriver manager ======
+2026-05-09 11:24:05,880 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:24:05,908 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:24:05,934 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:24:16,234 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:24:21,398 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:24:21,399 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:24:29,276 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:24:34,414 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:24:34,415 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:24:43,055 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:24:48,189 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:24:48,190 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:25:05,045 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x557e6418b79a <unknown>
+#1 0x557e63b87215 <unknown>
+#2 0x557e63bd9f06 <unknown>
+#3 0x557e63bda141 <unknown>
+#4 0x557e63c25634 <unknown>
+#5 0x557e63c227d0 <unknown>
+#6 0x557e63bcd55f <unknown>
+#7 0x557e63bce321 <unknown>
+#8 0x557e6414f06b <unknown>
+#9 0x557e6415201d <unknown>
+#10 0x557e6413b718 <unknown>
+#11 0x557e64152bb0 <unknown>
+#12 0x557e64122150 <unknown>
+#13 0x557e641785e8 <unknown>
+#14 0x557e641787b8 <unknown>
+#15 0x557e6418a1de <unknown>
+#16 0x7f3cb309caa4 <unknown>
+#17 0x7f3cb3129c6c <unknown>
+
+2026-05-09 11:25:05,045 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:25:10,128 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:25:10,128 - INFO - ====== WebDriver manager ======
+2026-05-09 11:25:10,194 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:25:10,224 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:25:10,251 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:25:20,493 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:25:25,647 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:25:25,648 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:25:25,650 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 11:25:25,725 - INFO - ============================================================
+2026-05-09 11:25:25,725 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 11:25:25,921 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 11:25:27,268 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 11:25:35,277 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:25:35,277 - INFO - ====== WebDriver manager ======
+2026-05-09 11:25:35,342 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:25:35,374 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:25:35,400 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:25:45,665 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:25:50,821 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:25:50,822 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:25:58,671 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:26:03,812 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:26:03,813 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:26:21,555 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x564e460ae79a <unknown>
+#1 0x564e45aaa215 <unknown>
+#2 0x564e45afcf06 <unknown>
+#3 0x564e45afd141 <unknown>
+#4 0x564e45b48634 <unknown>
+#5 0x564e45b457d0 <unknown>
+#6 0x564e45af055f <unknown>
+#7 0x564e45af1321 <unknown>
+#8 0x564e4607206b <unknown>
+#9 0x564e4607501d <unknown>
+#10 0x564e4605e718 <unknown>
+#11 0x564e46075bb0 <unknown>
+#12 0x564e46045150 <unknown>
+#13 0x564e4609b5e8 <unknown>
+#14 0x564e4609b7b8 <unknown>
+#15 0x564e460ad1de <unknown>
+#16 0x7f93ede9caa4 <unknown>
+#17 0x7f93edf29c6c <unknown>
+
+2026-05-09 11:26:21,556 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:26:26,639 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:26:26,639 - INFO - ====== WebDriver manager ======
+2026-05-09 11:26:26,705 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:26:26,732 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:26:26,761 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:26:35,949 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:26:41,104 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:26:41,105 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:26:49,262 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:26:54,395 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:26:54,397 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:27:02,254 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:27:07,384 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:27:07,385 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:27:15,093 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:27:20,224 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:27:20,226 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:27:29,040 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:27:34,174 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:27:34,176 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:27:50,723 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55c23e28079a <unknown>
+#1 0x55c23dc7c215 <unknown>
+#2 0x55c23dccef06 <unknown>
+#3 0x55c23dccf141 <unknown>
+#4 0x55c23dd1a634 <unknown>
+#5 0x55c23dd177d0 <unknown>
+#6 0x55c23dcc255f <unknown>
+#7 0x55c23dcc3321 <unknown>
+#8 0x55c23e24406b <unknown>
+#9 0x55c23e24701d <unknown>
+#10 0x55c23e230718 <unknown>
+#11 0x55c23e247bb0 <unknown>
+#12 0x55c23e217150 <unknown>
+#13 0x55c23e26d5e8 <unknown>
+#14 0x55c23e26d7b8 <unknown>
+#15 0x55c23e27f1de <unknown>
+#16 0x7f8a7449caa4 <unknown>
+#17 0x7f8a74529c6c <unknown>
+
+2026-05-09 11:27:50,723 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:27:55,806 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:27:55,806 - INFO - ====== WebDriver manager ======
+2026-05-09 11:27:55,872 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:27:55,901 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:27:55,930 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:28:05,969 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:28:11,124 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:28:11,125 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:28:20,238 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:28:25,373 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:28:25,374 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:28:33,802 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:28:38,940 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:28:38,941 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:28:55,441 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5575aa30279a <unknown>
+#1 0x5575a9cfe215 <unknown>
+#2 0x5575a9d50f06 <unknown>
+#3 0x5575a9d51141 <unknown>
+#4 0x5575a9d9c634 <unknown>
+#5 0x5575a9d997d0 <unknown>
+#6 0x5575a9d4455f <unknown>
+#7 0x5575a9d45321 <unknown>
+#8 0x5575aa2c606b <unknown>
+#9 0x5575aa2c901d <unknown>
+#10 0x5575aa2b2718 <unknown>
+#11 0x5575aa2c9bb0 <unknown>
+#12 0x5575aa299150 <unknown>
+#13 0x5575aa2ef5e8 <unknown>
+#14 0x5575aa2ef7b8 <unknown>
+#15 0x5575aa3011de <unknown>
+#16 0x7fe191c9caa4 <unknown>
+#17 0x7fe191d29c6c <unknown>
+
+2026-05-09 11:28:55,441 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:29:00,524 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:29:00,524 - INFO - ====== WebDriver manager ======
+2026-05-09 11:29:00,591 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:29:00,621 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:29:00,648 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:29:10,882 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:29:16,033 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:29:16,034 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:29:24,956 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:29:30,092 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:29:30,094 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:29:47,715 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55e34597b79a <unknown>
+#1 0x55e345377215 <unknown>
+#2 0x55e3453c9f06 <unknown>
+#3 0x55e3453ca141 <unknown>
+#4 0x55e345415634 <unknown>
+#5 0x55e3454127d0 <unknown>
+#6 0x55e3453bd55f <unknown>
+#7 0x55e3453be321 <unknown>
+#8 0x55e34593f06b <unknown>
+#9 0x55e34594201d <unknown>
+#10 0x55e34592b718 <unknown>
+#11 0x55e345942bb0 <unknown>
+#12 0x55e345912150 <unknown>
+#13 0x55e3459685e8 <unknown>
+#14 0x55e3459687b8 <unknown>
+#15 0x55e34597a1de <unknown>
+#16 0x7f61b3e9caa4 <unknown>
+#17 0x7f61b3f29c6c <unknown>
+
+2026-05-09 11:29:47,716 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:29:52,798 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:29:52,798 - INFO - ====== WebDriver manager ======
+2026-05-09 11:29:52,863 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:29:52,892 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:29:52,920 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:30:02,922 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:30:08,072 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:30:08,073 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:30:15,644 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:30:20,787 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:30:20,788 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:30:38,446 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55e6cc6b679a <unknown>
+#1 0x55e6cc0b2215 <unknown>
+#2 0x55e6cc104f06 <unknown>
+#3 0x55e6cc105141 <unknown>
+#4 0x55e6cc150634 <unknown>
+#5 0x55e6cc14d7d0 <unknown>
+#6 0x55e6cc0f855f <unknown>
+#7 0x55e6cc0f9321 <unknown>
+#8 0x55e6cc67a06b <unknown>
+#9 0x55e6cc67d01d <unknown>
+#10 0x55e6cc666718 <unknown>
+#11 0x55e6cc67dbb0 <unknown>
+#12 0x55e6cc64d150 <unknown>
+#13 0x55e6cc6a35e8 <unknown>
+#14 0x55e6cc6a37b8 <unknown>
+#15 0x55e6cc6b51de <unknown>
+#16 0x7fad5449caa4 <unknown>
+#17 0x7fad54529c6c <unknown>
+
+2026-05-09 11:30:38,446 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:30:43,529 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:30:43,529 - INFO - ====== WebDriver manager ======
+2026-05-09 11:30:43,595 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:30:43,624 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:30:43,649 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:30:53,917 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:30:59,074 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:30:59,075 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:31:06,669 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:31:11,802 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:31:11,803 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:31:28,240 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5566e856d79a <unknown>
+#1 0x5566e7f69215 <unknown>
+#2 0x5566e7fbbf06 <unknown>
+#3 0x5566e7fbc141 <unknown>
+#4 0x5566e8007634 <unknown>
+#5 0x5566e80047d0 <unknown>
+#6 0x5566e7faf55f <unknown>
+#7 0x5566e7fb0321 <unknown>
+#8 0x5566e853106b <unknown>
+#9 0x5566e853401d <unknown>
+#10 0x5566e851d718 <unknown>
+#11 0x5566e8534bb0 <unknown>
+#12 0x5566e8504150 <unknown>
+#13 0x5566e855a5e8 <unknown>
+#14 0x5566e855a7b8 <unknown>
+#15 0x5566e856c1de <unknown>
+#16 0x7f3998a9caa4 <unknown>
+#17 0x7f3998b29c6c <unknown>
+
+2026-05-09 11:31:28,240 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:31:33,322 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:31:33,322 - INFO - ====== WebDriver manager ======
+2026-05-09 11:31:33,388 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:31:33,416 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:31:33,441 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:31:43,890 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:31:49,039 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:31:49,040 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:31:56,913 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:32:02,046 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:32:02,048 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:32:19,399 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x559b96f2779a <unknown>
+#1 0x559b96923215 <unknown>
+#2 0x559b96975f06 <unknown>
+#3 0x559b96976141 <unknown>
+#4 0x559b969c1634 <unknown>
+#5 0x559b969be7d0 <unknown>
+#6 0x559b9696955f <unknown>
+#7 0x559b9696a321 <unknown>
+#8 0x559b96eeb06b <unknown>
+#9 0x559b96eee01d <unknown>
+#10 0x559b96ed7718 <unknown>
+#11 0x559b96eeebb0 <unknown>
+#12 0x559b96ebe150 <unknown>
+#13 0x559b96f145e8 <unknown>
+#14 0x559b96f147b8 <unknown>
+#15 0x559b96f261de <unknown>
+#16 0x7fd38ee9caa4 <unknown>
+#17 0x7fd38ef29c6c <unknown>
+
+2026-05-09 11:32:19,400 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:32:24,482 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:32:24,483 - INFO - ====== WebDriver manager ======
+2026-05-09 11:32:24,549 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:32:24,578 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:32:24,606 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:32:34,518 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:32:39,668 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:32:39,669 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:32:57,624 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ab97e1479a <unknown>
+#1 0x55ab97810215 <unknown>
+#2 0x55ab97862f06 <unknown>
+#3 0x55ab97863141 <unknown>
+#4 0x55ab978ae634 <unknown>
+#5 0x55ab978ab7d0 <unknown>
+#6 0x55ab9785655f <unknown>
+#7 0x55ab97857321 <unknown>
+#8 0x55ab97dd806b <unknown>
+#9 0x55ab97ddb01d <unknown>
+#10 0x55ab97dc4718 <unknown>
+#11 0x55ab97ddbbb0 <unknown>
+#12 0x55ab97dab150 <unknown>
+#13 0x55ab97e015e8 <unknown>
+#14 0x55ab97e017b8 <unknown>
+#15 0x55ab97e131de <unknown>
+#16 0x7f687c49caa4 <unknown>
+#17 0x7f687c529c6c <unknown>
+
+2026-05-09 11:32:57,624 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:33:02,704 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:33:02,705 - INFO - ====== WebDriver manager ======
+2026-05-09 11:33:02,770 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:33:02,797 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:33:02,823 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:33:11,610 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:33:16,762 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:33:16,763 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:33:16,765 - INFO - 🧹 메모리 최적화: 20개 처리 완료. 브라우저를 재시작하고 데이터를 중간 백업합니다.
+2026-05-09 11:33:16,840 - INFO - ============================================================
+2026-05-09 11:33:16,840 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 11:33:17,037 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 11:33:18,367 - INFO - ☁️ GitHub 자동 푸시 완료: 중간 백업 성공!
+2026-05-09 11:33:26,376 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:33:26,376 - INFO - ====== WebDriver manager ======
+2026-05-09 11:33:26,443 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:33:26,473 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:33:26,504 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:33:37,505 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:33:42,658 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:33:42,660 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:33:58,998 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ce38cd679a <unknown>
+#1 0x55ce386d2215 <unknown>
+#2 0x55ce38724f06 <unknown>
+#3 0x55ce38725141 <unknown>
+#4 0x55ce38770634 <unknown>
+#5 0x55ce3876d7d0 <unknown>
+#6 0x55ce3871855f <unknown>
+#7 0x55ce38719321 <unknown>
+#8 0x55ce38c9a06b <unknown>
+#9 0x55ce38c9d01d <unknown>
+#10 0x55ce38c86718 <unknown>
+#11 0x55ce38c9dbb0 <unknown>
+#12 0x55ce38c6d150 <unknown>
+#13 0x55ce38cc35e8 <unknown>
+#14 0x55ce38cc37b8 <unknown>
+#15 0x55ce38cd51de <unknown>
+#16 0x7f2645e9caa4 <unknown>
+#17 0x7f2645f29c6c <unknown>
+
+2026-05-09 11:33:58,998 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:34:04,078 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:34:04,079 - INFO - ====== WebDriver manager ======
+2026-05-09 11:34:04,144 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:34:04,171 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:34:04,198 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:34:13,954 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:34:19,109 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:34:19,111 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:34:27,810 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:34:32,943 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:34:32,944 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:34:49,298 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5598c305479a <unknown>
+#1 0x5598c2a50215 <unknown>
+#2 0x5598c2aa2f06 <unknown>
+#3 0x5598c2aa3141 <unknown>
+#4 0x5598c2aee634 <unknown>
+#5 0x5598c2aeb7d0 <unknown>
+#6 0x5598c2a9655f <unknown>
+#7 0x5598c2a97321 <unknown>
+#8 0x5598c301806b <unknown>
+#9 0x5598c301b01d <unknown>
+#10 0x5598c3004718 <unknown>
+#11 0x5598c301bbb0 <unknown>
+#12 0x5598c2feb150 <unknown>
+#13 0x5598c30415e8 <unknown>
+#14 0x5598c30417b8 <unknown>
+#15 0x5598c30531de <unknown>
+#16 0x7f315709caa4 <unknown>
+#17 0x7f3157129c6c <unknown>
+
+2026-05-09 11:34:49,299 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:34:54,382 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:34:54,382 - INFO - ====== WebDriver manager ======
+2026-05-09 11:34:54,449 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:34:54,484 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:34:54,510 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:35:04,428 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:35:09,579 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:35:09,580 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:35:26,969 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55c4e2d9479a <unknown>
+#1 0x55c4e2790215 <unknown>
+#2 0x55c4e27e2f06 <unknown>
+#3 0x55c4e27e3141 <unknown>
+#4 0x55c4e282e634 <unknown>
+#5 0x55c4e282b7d0 <unknown>
+#6 0x55c4e27d655f <unknown>
+#7 0x55c4e27d7321 <unknown>
+#8 0x55c4e2d5806b <unknown>
+#9 0x55c4e2d5b01d <unknown>
+#10 0x55c4e2d44718 <unknown>
+#11 0x55c4e2d5bbb0 <unknown>
+#12 0x55c4e2d2b150 <unknown>
+#13 0x55c4e2d815e8 <unknown>
+#14 0x55c4e2d817b8 <unknown>
+#15 0x55c4e2d931de <unknown>
+#16 0x7ff02349caa4 <unknown>
+#17 0x7ff023529c6c <unknown>
+
+2026-05-09 11:35:26,969 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:35:32,050 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:35:32,050 - INFO - ====== WebDriver manager ======
+2026-05-09 11:35:32,116 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:35:32,144 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:35:32,172 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:35:41,710 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:35:46,860 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:35:46,861 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:36:03,167 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ff152e479a <unknown>
+#1 0x55ff14ce0215 <unknown>
+#2 0x55ff14d32f06 <unknown>
+#3 0x55ff14d33141 <unknown>
+#4 0x55ff14d7e634 <unknown>
+#5 0x55ff14d7b7d0 <unknown>
+#6 0x55ff14d2655f <unknown>
+#7 0x55ff14d27321 <unknown>
+#8 0x55ff152a806b <unknown>
+#9 0x55ff152ab01d <unknown>
+#10 0x55ff15294718 <unknown>
+#11 0x55ff152abbb0 <unknown>
+#12 0x55ff1527b150 <unknown>
+#13 0x55ff152d15e8 <unknown>
+#14 0x55ff152d17b8 <unknown>
+#15 0x55ff152e31de <unknown>
+#16 0x7f2ed5a9caa4 <unknown>
+#17 0x7f2ed5b29c6c <unknown>
+
+2026-05-09 11:36:03,167 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:36:08,247 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:36:08,247 - INFO - ====== WebDriver manager ======
+2026-05-09 11:36:08,313 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:36:08,341 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:36:08,369 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:36:17,900 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:36:23,066 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:36:23,067 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:36:31,482 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:36:36,621 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:36:36,622 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:36:44,373 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:36:49,519 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:36:49,520 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:36:56,935 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:37:02,067 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:37:02,068 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:37:18,091 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55baa400a79a <unknown>
+#1 0x55baa3a06215 <unknown>
+#2 0x55baa3a58f06 <unknown>
+#3 0x55baa3a59141 <unknown>
+#4 0x55baa3aa4634 <unknown>
+#5 0x55baa3aa17d0 <unknown>
+#6 0x55baa3a4c55f <unknown>
+#7 0x55baa3a4d321 <unknown>
+#8 0x55baa3fce06b <unknown>
+#9 0x55baa3fd101d <unknown>
+#10 0x55baa3fba718 <unknown>
+#11 0x55baa3fd1bb0 <unknown>
+#12 0x55baa3fa1150 <unknown>
+#13 0x55baa3ff75e8 <unknown>
+#14 0x55baa3ff77b8 <unknown>
+#15 0x55baa40091de <unknown>
+#16 0x7f791be9caa4 <unknown>
+#17 0x7f791bf29c6c <unknown>
+
+2026-05-09 11:37:18,091 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:37:23,175 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:37:23,176 - INFO - ====== WebDriver manager ======
+2026-05-09 11:37:23,242 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:37:23,274 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:37:23,304 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:37:35,280 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:37:40,438 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:37:40,439 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:37:49,065 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:37:54,207 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:37:54,208 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:38:02,591 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:38:07,726 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:38:07,727 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:38:24,096 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55823e6b679a <unknown>
+#1 0x55823e0b2215 <unknown>
+#2 0x55823e104f06 <unknown>
+#3 0x55823e105141 <unknown>
+#4 0x55823e150634 <unknown>
+#5 0x55823e14d7d0 <unknown>
+#6 0x55823e0f855f <unknown>
+#7 0x55823e0f9321 <unknown>
+#8 0x55823e67a06b <unknown>
+#9 0x55823e67d01d <unknown>
+#10 0x55823e666718 <unknown>
+#11 0x55823e67dbb0 <unknown>
+#12 0x55823e64d150 <unknown>
+#13 0x55823e6a35e8 <unknown>
+#14 0x55823e6a37b8 <unknown>
+#15 0x55823e6b51de <unknown>
+#16 0x7fdde5a9caa4 <unknown>
+#17 0x7fdde5b29c6c <unknown>
+
+2026-05-09 11:38:24,096 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:38:29,181 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:38:29,182 - INFO - ====== WebDriver manager ======
+2026-05-09 11:38:29,247 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:38:29,278 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:38:29,306 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:38:40,130 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:38:45,284 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:38:45,285 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:38:52,915 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:38:58,048 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:38:58,049 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:39:15,739 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55e1e67d279a <unknown>
+#1 0x55e1e61ce215 <unknown>
+#2 0x55e1e6220f06 <unknown>
+#3 0x55e1e6221141 <unknown>
+#4 0x55e1e626c634 <unknown>
+#5 0x55e1e62697d0 <unknown>
+#6 0x55e1e621455f <unknown>
+#7 0x55e1e6215321 <unknown>
+#8 0x55e1e679606b <unknown>
+#9 0x55e1e679901d <unknown>
+#10 0x55e1e6782718 <unknown>
+#11 0x55e1e6799bb0 <unknown>
+#12 0x55e1e6769150 <unknown>
+#13 0x55e1e67bf5e8 <unknown>
+#14 0x55e1e67bf7b8 <unknown>
+#15 0x55e1e67d11de <unknown>
+#16 0x7f3e6869caa4 <unknown>
+#17 0x7f3e68729c6c <unknown>
+
+2026-05-09 11:39:15,739 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:39:20,821 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:39:20,821 - INFO - ====== WebDriver manager ======
+2026-05-09 11:39:20,888 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:39:20,916 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:39:20,946 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:39:32,376 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:39:37,521 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:39:37,523 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:39:46,350 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:39:51,488 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:39:51,490 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:39:59,101 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:40:04,236 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:40:04,237 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:40:20,263 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x556b167da79a <unknown>
+#1 0x556b161d6215 <unknown>
+#2 0x556b16228f06 <unknown>
+#3 0x556b16229141 <unknown>
+#4 0x556b16274634 <unknown>
+#5 0x556b162717d0 <unknown>
+#6 0x556b1621c55f <unknown>
+#7 0x556b1621d321 <unknown>
+#8 0x556b1679e06b <unknown>
+#9 0x556b167a101d <unknown>
+#10 0x556b1678a718 <unknown>
+#11 0x556b167a1bb0 <unknown>
+#12 0x556b16771150 <unknown>
+#13 0x556b167c75e8 <unknown>
+#14 0x556b167c77b8 <unknown>
+#15 0x556b167d91de <unknown>
+#16 0x7f336c29caa4 <unknown>
+#17 0x7f336c329c6c <unknown>
+
+2026-05-09 11:40:20,263 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:40:25,347 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:40:25,347 - INFO - ====== WebDriver manager ======
+2026-05-09 11:40:25,413 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:40:25,442 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:40:25,469 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:40:37,394 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:40:42,541 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:40:42,542 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:41:00,309 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x55ca409d279a <unknown>
+#1 0x55ca403ce215 <unknown>
+#2 0x55ca40420f06 <unknown>
+#3 0x55ca40421141 <unknown>
+#4 0x55ca4046c634 <unknown>
+#5 0x55ca404697d0 <unknown>
+#6 0x55ca4041455f <unknown>
+#7 0x55ca40415321 <unknown>
+#8 0x55ca4099606b <unknown>
+#9 0x55ca4099901d <unknown>
+#10 0x55ca40982718 <unknown>
+#11 0x55ca40999bb0 <unknown>
+#12 0x55ca40969150 <unknown>
+#13 0x55ca409bf5e8 <unknown>
+#14 0x55ca409bf7b8 <unknown>
+#15 0x55ca409d11de <unknown>
+#16 0x7efd6da9caa4 <unknown>
+#17 0x7efd6db29c6c <unknown>
+
+2026-05-09 11:41:00,309 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:41:05,390 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:41:05,390 - INFO - ====== WebDriver manager ======
+2026-05-09 11:41:05,455 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:41:05,484 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:41:05,512 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:41:14,758 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:41:19,906 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:41:19,907 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:41:36,937 - ERROR -   ❌ 크롤링 중 예외 발생: Message: 
+Stacktrace:
+#0 0x5635b7def79a <unknown>
+#1 0x5635b77eb215 <unknown>
+#2 0x5635b783df06 <unknown>
+#3 0x5635b783e141 <unknown>
+#4 0x5635b7889634 <unknown>
+#5 0x5635b78867d0 <unknown>
+#6 0x5635b783155f <unknown>
+#7 0x5635b7832321 <unknown>
+#8 0x5635b7db306b <unknown>
+#9 0x5635b7db601d <unknown>
+#10 0x5635b7d9f718 <unknown>
+#11 0x5635b7db6bb0 <unknown>
+#12 0x5635b7d86150 <unknown>
+#13 0x5635b7ddc5e8 <unknown>
+#14 0x5635b7ddc7b8 <unknown>
+#15 0x5635b7dee1de <unknown>
+#16 0x7fd39d49caa4 <unknown>
+#17 0x7fd39d529c6c <unknown>
+
+2026-05-09 11:41:36,937 - WARNING - ⚠️ 'nan' 수집 실패. 재시도 중... (1/3)
+2026-05-09 11:41:42,019 - INFO - 🚀 ChromeDriver 초기화 및 리소스 최적화 적용 중...
+2026-05-09 11:41:42,019 - INFO - ====== WebDriver manager ======
+2026-05-09 11:41:42,084 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:41:42,111 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-09 11:41:42,139 - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-09 11:41:52,273 - INFO - 🪧 'nan' 검색 결과 순회 시작 - 총 10개 항목 발견
+2026-05-09 11:41:57,427 - WARNING -   ⚠️ 'nan'(주소: nan)와 일치하는 장소를 찾지 못했습니다.
+2026-05-09 11:41:57,428 - INFO - 📁 파일 원본_리뷰_데이터.csv에 데이터 누적(Append) 완료 (1건)
+2026-05-09 11:41:57,430 - INFO - 🛑 1회 실행 목표(200개)를 모두 달성했습니다. 크롤러를 안전하게 종료합니다.
+2026-05-09 11:41:57,504 - INFO - ============================================================
+2026-05-09 11:41:57,504 - INFO - 🧹 수집 완료. 데이터 정제 및 중복 제거를 시작합니다.
+2026-05-09 11:41:57,696 - INFO - ✅ 정제 완료! (총 21254건 중 6054건 최종 저장)
+2026-05-09 11:41:59,027 - INFO - ☁️ GitHub 자동 푸시 완료: 최종 저장 성공!
